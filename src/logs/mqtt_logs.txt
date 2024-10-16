@@ -1,0 +1,422 @@
+[2024-10-14T19:58:15.315Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T19:58:15.487Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:03:10.898Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:03:11.033Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:03:58.588Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:03:58.716Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:06:31.250Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:06:31.448Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:08:05.821Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:08:05.970Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:09:03.698Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:09:03.854Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:12:05.148Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:12:05.290Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:20:04.879Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:20:05.016Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:24:25.146Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:24:25.294Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:36:43.381Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:36:43.533Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:42:45.988Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:42:46.126Z] MongoDB bağlantısı başarılı
+[2024-10-14T20:46:01.639Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:47:48.242Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:48:17.868Z] MongoDB bağlantısı başarısız: Server selection timed out after 30000 ms
+[2024-10-14T20:49:20.923Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:49:25.322Z] MongoDB bağlantısı başarısız: Server selection timed out after 5000 ms
+[2024-10-14T20:56:08.983Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T20:56:13.363Z] MongoDB bağlantısı başarısız: Server selection timed out after 5000 ms
+[2024-10-14T21:06:39.029Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:06:43.379Z] MongoDB bağlantısı başarısız: Server selection timed out after 5000 ms
+[2024-10-14T21:08:47.275Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:08:47.461Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:10:10.120Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:10:10.296Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:14:16.112Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:14:16.244Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:19:16.170Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:19:16.321Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:23:05.493Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:23:05.611Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:25:20.244Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:25:20.380Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:30:26.833Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:30:26.965Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:33:28.147Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:33:28.273Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:33:56.400Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:33:56.559Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:43:24.109Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:43:24.294Z] MongoDB bağlantısı başarılı
+[2024-10-14T21:57:14.621Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T21:57:14.767Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:00:46.108Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:00:46.263Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:01:36.054Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:01:36.203Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:02:08.677Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:02:08.861Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:02:40.639Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:02:40.775Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:19:24.896Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:19:25.035Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:19:40.364Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:19:40.501Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:20:11.959Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:20:12.112Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:20:22.034Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:20:22.160Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:21:18.123Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:21:18.247Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:24:50.111Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:24:50.249Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:26:28.302Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:26:28.408Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:31:29.575Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:31:29.709Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:34:23.175Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:34:23.307Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:45:13.732Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:45:13.874Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:49:56.271Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:49:56.400Z] MongoDB bağlantısı başarılı
+[2024-10-14T22:51:31.580Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T22:51:31.708Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:12:03.186Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:12:03.307Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:19:28.183Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:19:28.319Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:24:09.158Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:24:09.295Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:32:13.424Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:32:13.545Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:36:33.654Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:36:33.798Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:40:32.431Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:40:32.567Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:46:21.453Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:46:21.621Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:51:02.442Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:51:02.575Z] MongoDB bağlantısı başarılı
+[2024-10-14T23:58:21.860Z] Sunucu 3000 portunda çalışıyor
+[2024-10-14T23:58:22.005Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:19:28.032Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:19:28.203Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:19:58.631Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:19:58.875Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:20:10.817Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:20:10.989Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:23:55.944Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:23:56.054Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:27:53.161Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:27:53.337Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:32:46.755Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:32:46.861Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:35:53.066Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:35:53.212Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:36:07.499Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:36:07.665Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:37:32.538Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:37:32.681Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:40:34.852Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:40:34.980Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:41:20.083Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:41:20.227Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:50:14.276Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:50:14.422Z] MongoDB bağlantısı başarılı
+[2024-10-15T00:55:34.735Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T00:55:34.891Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:01:47.739Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:01:47.888Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:01:58.691Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:01:58.840Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:03:37.443Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:03:37.609Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:03:53.525Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:03:53.679Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:25:17.132Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:25:17.286Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:25:26.886Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:25:27.011Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:25:39.397Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:25:39.567Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:25:47.243Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:25:47.404Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:25:59.138Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:25:59.308Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:26:07.531Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:26:07.674Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:26:19.653Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:26:19.743Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:26:30.462Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:26:30.603Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:30:15.719Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:30:15.881Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:32:58.655Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:32:58.800Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:33:09.588Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:33:09.749Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:33:20.611Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:33:20.768Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:33:31.155Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:33:31.298Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:38:13.665Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:38:13.833Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:43:26.066Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:43:26.200Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:44:09.890Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:44:10.010Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:44:17.473Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:44:17.608Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:49:07.644Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:49:07.791Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:49:31.777Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:49:31.917Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:53:39.248Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:53:39.392Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:56:29.949Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:56:30.113Z] MongoDB bağlantısı başarılı
+[2024-10-15T01:56:38.448Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T01:56:38.591Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:00:34.842Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:00:34.969Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:06:39.518Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:06:39.669Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:13:32.624Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:13:32.748Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:13:41.655Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:13:41.793Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:13:54.831Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:13:54.966Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:14:04.093Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:14:04.231Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:14:16.139Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:14:16.273Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:14:27.892Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:14:28.013Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:17:47.547Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:17:47.656Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:17:57.166Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:17:57.294Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:18:13.048Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:18:13.199Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:18:19.387Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:18:19.519Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:18:40.343Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:18:40.485Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:19:05.296Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:19:05.474Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:19:16.749Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:19:16.905Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:19:34.373Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:19:34.525Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:19:58.594Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:19:58.693Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:21:47.621Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:21:47.753Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:25:32.242Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:25:32.384Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:30:34.970Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:30:35.114Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:30:42.781Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:30:42.894Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:31:10.165Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:31:10.305Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:31:20.220Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:31:20.335Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:32:49.811Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:32:49.956Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:33:00.186Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:33:00.325Z] MongoDB bağlantısı başarılı
+[2024-10-15T02:33:21.884Z] Sunucu 3000 portunda çalışıyor
+[2024-10-15T02:33:21.985Z] MongoDB bağlantısı başarılı
+[2024-10-15T09:43:47.404Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:43:47.495Z] Başarıyla abone olundu
+[2024-10-15T09:44:04.130Z] Bilinmeyen topic: machines/card
+[2024-10-15T09:46:46.406Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:46:46.490Z] Başarıyla abone olundu
+[2024-10-15T09:47:17.756Z] Makine durumu güncellendi: Seri Numarası - 6660469940078142, Durum - online
+[2024-10-15T09:48:18.060Z] Makine durumu güncellendi: Seri Numarası - 6660469940078142, Durum - online
+[2024-10-15T09:49:09.613Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:49:09.701Z] Başarıyla abone olundu
+[2024-10-15T09:49:18.498Z] Makine durumu güncellendi: Seri Numarası - 6660469940078142, Durum - online
+[2024-10-15T09:49:23.106Z] Bilinmeyen topic: machines/card
+[2024-10-15T09:50:18.501Z] Makine durumu güncellendi: Seri Numarası - 6660469940078142, Durum - online
+[2024-10-15T09:51:18.875Z] Makine durumu güncellendi: Seri Numarası - 6660469940078142, Durum - online
+[2024-10-15T09:51:26.937Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:51:27.029Z] Başarıyla abone olundu
+[2024-10-15T09:51:34.619Z] Bilinmeyen topic: machines/card
+[2024-10-15T09:52:01.678Z] Bilinmeyen topic: machines/register
+[2024-10-15T09:54:20.861Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:54:20.945Z] Başarıyla abone olundu
+[2024-10-15T09:54:27.746Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:54:27.862Z] Başarıyla abone olundu
+[2024-10-15T09:54:33.083Z] Kart mesajı işleniyor
+[2024-10-15T09:54:33.087Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T09:54:50.253Z] Kayıt mesajı işleniyor
+[2024-10-15T09:54:50.257Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T09:56:27.211Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:56:27.298Z] Başarıyla abone olundu
+[2024-10-15T09:56:30.643Z] Kart mesajı işleniyor
+[2024-10-15T09:56:30.648Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T09:56:45.408Z] Kayıt mesajı işleniyor
+[2024-10-15T09:56:45.412Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T09:58:12.396Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:58:12.489Z] Başarıyla abone olundu
+[2024-10-15T09:58:22.028Z] Kayıt mesajı işleniyor
+[2024-10-15T09:58:22.031Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T09:58:27.619Z] Kart mesajı işleniyor
+[2024-10-15T09:58:27.623Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T09:59:39.345Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T09:59:39.456Z] Başarıyla abone olundu
+[2024-10-15T09:59:42.191Z] Kart mesajı işleniyor
+[2024-10-15T09:59:42.195Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T09:59:51.523Z] Kayıt mesajı işleniyor
+[2024-10-15T09:59:51.528Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:00:57.474Z] Kart mesajı işleniyor
+[2024-10-15T10:00:57.480Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:01:18.597Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:01:18.679Z] Başarıyla abone olundu
+[2024-10-15T10:01:24.424Z] Gelen topic: machines/card
+[2024-10-15T10:01:24.429Z] Kart mesajı işleniyor
+[2024-10-15T10:01:24.447Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:01:30.386Z] Gelen topic: machines/register
+[2024-10-15T10:01:30.390Z] Kayıt mesajı işleniyor
+[2024-10-15T10:01:30.404Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:02:50.006Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:02:50.099Z] Başarıyla abone olundu
+[2024-10-15T10:02:55.474Z] Gelen topic: machines/card
+[2024-10-15T10:02:55.476Z] Kart mesajı işleniyor
+[2024-10-15T10:02:55.484Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:03:02.904Z] Gelen topic: machines/register
+[2024-10-15T10:03:02.908Z] Kayıt mesajı işleniyor
+[2024-10-15T10:03:02.926Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:03:06.793Z] Gelen topic: machines/card
+[2024-10-15T10:03:06.798Z] Kart mesajı işleniyor
+[2024-10-15T10:03:06.819Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1d:88:19:e9
+[2024-10-15T10:04:05.740Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:04:05.882Z] Başarıyla abone olundu
+[2024-10-15T10:04:09.454Z] Gelen topic: machines/card
+[2024-10-15T10:04:09.458Z] Kart mesajı işleniyor
+[2024-10-15T10:04:09.469Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:04:17.786Z] Gelen topic: machines/register
+[2024-10-15T10:04:17.789Z] Kayıt mesajı işleniyor
+[2024-10-15T10:04:17.805Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:05:56.917Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:05:57.014Z] Başarıyla abone olundu
+[2024-10-15T10:06:03.281Z] Gelen topic: machines/card
+[2024-10-15T10:06:03.286Z] Kart mesajı işleniyor
+[2024-10-15T10:06:03.300Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:06:13.447Z] Gelen topic: machines/register
+[2024-10-15T10:06:13.453Z] Kayıt mesajı işleniyor
+[2024-10-15T10:06:13.472Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:07:50.435Z] Gelen topic: machines/card
+[2024-10-15T10:07:50.442Z] Kart mesajı işleniyor
+[2024-10-15T10:07:50.459Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:07:58.755Z] Gelen topic: machines/register
+[2024-10-15T10:07:58.759Z] Kayıt mesajı işleniyor
+[2024-10-15T10:07:58.784Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:08:58.515Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:08:58.626Z] Başarıyla abone olundu
+[2024-10-15T10:09:06.311Z] Gelen topic: machines/register
+[2024-10-15T10:09:06.314Z] İşlenen mesaj: {"serialNumber":"6660469940078142"}
+[2024-10-15T10:09:06.329Z] Normalized topic: machines/register
+[2024-10-15T10:09:06.339Z] Kayıt mesajı işleniyor
+[2024-10-15T10:09:06.345Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:09:14.028Z] Gelen topic: machines/card
+[2024-10-15T10:09:14.031Z] İşlenen mesaj: {"serialNumber":"6660469940078142","cardID":"1:d9:e5:2e"}
+[2024-10-15T10:09:14.051Z] Normalized topic: machines/card
+[2024-10-15T10:09:14.059Z] Kart mesajı işleniyor
+[2024-10-15T10:09:14.066Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:10:30.739Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:10:30.825Z] Başarıyla abone olundu
+[2024-10-15T10:10:44.057Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:10:44.150Z] Başarıyla abone olundu
+[2024-10-15T10:10:51.181Z] Gelen topic: machines/register
+[2024-10-15T10:10:51.189Z] İşlenen mesaj: {"serialNumber":"6660469940078142"}
+[2024-10-15T10:10:51.193Z] Normalized topic: machines/register
+[2024-10-15T10:10:51.196Z] Kayıt mesajı işleniyor
+[2024-10-15T10:10:51.201Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:10:58.043Z] Gelen topic: machines/card
+[2024-10-15T10:10:58.047Z] İşlenen mesaj: {"serialNumber":"6660469940078142","cardID":"1:d9:e5:2e"}
+[2024-10-15T10:10:58.050Z] Normalized topic: machines/card
+[2024-10-15T10:10:58.052Z] Kart mesajı işleniyor
+[2024-10-15T10:10:58.054Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:20:48.012Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:20:48.110Z] Başarıyla abone olundu
+[2024-10-15T10:20:56.748Z] Gelen topic: machines/register
+[2024-10-15T10:20:56.751Z] İşlenen mesaj: {"serialNumber":"6660469940078142"}
+[2024-10-15T10:20:56.754Z] Normalized topic: machines/register
+[2024-10-15T10:20:56.755Z] Kayıt mesajı işleniyor
+[2024-10-15T10:20:56.757Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:21:01.070Z] Gelen topic: machines/card
+[2024-10-15T10:21:01.073Z] İşlenen mesaj: {"serialNumber":"6660469940078142","cardID":"1:d9:e5:2e"}
+[2024-10-15T10:21:01.075Z] Normalized topic: machines/card
+[2024-10-15T10:21:01.077Z] Kart mesajı işleniyor
+[2024-10-15T10:21:01.080Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:29:23.807Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:29:23.888Z] Başarıyla abone olundu
+[2024-10-15T10:29:31.683Z] Gelen topic: machines/register
+[2024-10-15T10:29:31.688Z] İşlenen mesaj: {"serialNumber":"6660469940078142"}
+[2024-10-15T10:29:31.707Z] Normalized topic: machines/register
+[2024-10-15T10:29:31.716Z] Kayıt mesajı işleniyor
+[2024-10-15T10:29:31.725Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:29:35.149Z] Gelen topic: machines/card
+[2024-10-15T10:29:35.153Z] İşlenen mesaj: {"serialNumber":"6660469940078142","cardID":"1:d9:e5:2e"}
+[2024-10-15T10:29:35.168Z] Normalized topic: machines/card
+[2024-10-15T10:29:35.178Z] Kart mesajı işleniyor
+[2024-10-15T10:29:35.185Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:30:35.147Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:30:35.236Z] Başarıyla abone olundu
+[2024-10-15T10:30:42.563Z] Gelen topic: machines/register
+[2024-10-15T10:30:42.569Z] İşlenen mesaj: {"serialNumber":"6660469940078142"}
+[2024-10-15T10:30:42.584Z] Normalized topic: machines/register
+[2024-10-15T10:30:42.590Z] Kayıt mesajı işleniyor
+[2024-10-15T10:30:42.601Z] Makine kaydı: Seri Numarası - 6660469940078142
+[2024-10-15T10:31:00.905Z] Gelen topic: machines/card
+[2024-10-15T10:31:00.911Z] İşlenen mesaj: {"serialNumber":"6660469940078142","cardID":"1:d9:e5:2e"}
+[2024-10-15T10:31:00.935Z] Normalized topic: machines/card
+[2024-10-15T10:31:00.944Z] Kart mesajı işleniyor
+[2024-10-15T10:31:00.950Z] Kart işlemi: Seri Numarası - 6660469940078142, Kart ID - 1:d9:e5:2e
+[2024-10-15T10:31:39.125Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:31:39.222Z] Başarıyla abone olundu
+[2024-10-15T10:32:59.422Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:32:59.508Z] Başarıyla abone olundu
+[2024-10-15T10:33:01.803Z] Gelen topic: machines/card
+[2024-10-15T10:33:01.807Z] İşlenen mesaj: {"serialNumber":"6660469940078142","cardID":"1d:88:19:e9"}
+[2024-10-15T10:33:01.820Z] Normalized topic: machines/card
+[2024-10-15T10:33:01.827Z] Kart mesajı işleniyor
+[2024-10-15T10:33:01.879Z] Kart (1d:88:19:e9) Sistemde bulunamadı.
+[2024-10-15T10:33:05.795Z] Gelen topic: machines/card
+[2024-10-15T10:33:05.798Z] İşlenen mesaj: {"serialNumber":"6660469940078142","cardID":"1:d9:e5:2e"}
+[2024-10-15T10:33:05.811Z] Normalized topic: machines/card
+[2024-10-15T10:33:05.818Z] Kart mesajı işleniyor
+[2024-10-15T10:33:05.860Z] RFID (1:d9:e5:2e) Sistemde Kayıtlı: Murat DALGIC
+[2024-10-15T10:34:45.865Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:34:45.937Z] Başarıyla abone olundu
+[2024-10-15T10:35:52.953Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:35:53.052Z] Başarıyla abone olundu
+[2024-10-15T10:35:55.167Z] Gelen topic: machines/card
+[2024-10-15T10:35:55.170Z] İşlenen mesaj: {"serialNumber":"6660469940078142","cardID":"1:d9:e5:2e"}
+[2024-10-15T10:35:55.185Z] Normalized topic: machines/card
+[2024-10-15T10:35:55.193Z] Kart mesajı işleniyor
+[2024-10-15T10:35:55.271Z] RFID (1:d9:e5:2e) Sistemde Kayıtlı: Murat DALGIC
+[2024-10-15T10:37:50.268Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:37:50.349Z] Başarıyla abone olundu
+[2024-10-15T10:39:12.080Z] MQTT Broker bağlantısı başarılı
+[2024-10-15T10:39:12.178Z] Başarıyla abone olundu
+[2024-10-15T12:01:11.280Z] Makine zaten kayıtlı: Seri Numarası - 6660469940078142
+[2024-10-15T12:04:08.368Z] Makine zaten kayıtlı: Seri Numarası - 6660469940078142
+[2024-10-15T12:09:40.102Z] RFID Kart geçerli: Murat DALGIC
+[2024-10-15T12:09:40.104Z] Kart kontrol sırasında hata oluştu: Cannot read properties of undefined (reading 'publish')
+[2024-10-15T12:11:17.193Z] RFID Kart geçerli: Murat DALGIC
+[2024-10-15T12:11:17.195Z] Kart kontrol sırasında hata oluştu: Cannot read properties of undefined (reading 'publish')
+[2024-10-15T12:24:32.923Z] RFID Kart geçerli: Murat DALGIC
+[2024-10-15T12:34:25.230Z] RFID Kart geçerli: Murat DALGIC
+[2024-10-15T13:13:36.694Z] RFID Kart geçerli: Murat DALGIC
+[2024-10-15T13:13:36.698Z] Kart kontrol sırasında hata oluştu: Cannot read properties of undefined (reading 'publish')
+[2024-10-15T13:16:36.215Z] RFID Kart geçerli: Murat DALGIC
+[2024-10-15T13:16:36.218Z] Kart kontrol sırasında hata oluştu: Cannot read properties of undefined (reading 'publish')
+[2024-10-15T13:18:18.442Z] RFID Kart geçerli: Murat DALGIC
+[2024-10-15T13:18:18.445Z] Kart kontrol sırasında hata oluştu: Cannot read properties of undefined (reading 'publish')
