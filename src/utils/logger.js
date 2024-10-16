@@ -7,30 +7,37 @@ const path = require('path');
 // Log dosyasının yolu
 const logFilePath = path.join(__dirname, '../logs', 'app.log');
 
-// Loglama fonksiyonu
-function logMessage(message) {
+// Log dosyasına yazma fonksiyonu
+function writeLogToFile(message) {
     const logEntry = `[${new Date().toISOString()}] ${message}\n`;
+    fs.appendFileSync(logFilePath, logEntry, 'utf8'); // Logları dosyaya yaz
+}
+
+// Genel loglama fonksiyonu
+function logMessage(message, level = 'info') {
+    const logEntry = `[${new Date().toISOString()}] [${level.toUpperCase()}] ${message}`;
     console.log(logEntry); // Konsola yazdır
-    fs.appendFileSync(logFilePath, logEntry, 'utf8'); // Log dosyasına yaz
+    writeLogToFile(logEntry); // Log dosyasına yazdır
 }
 
-// Hatalar için özel loglama fonksiyonu
+// Hatalar için loglama fonksiyonu
 function logError(errorMessage) {
-    const errorEntry = `[${new Date().toISOString()}] ERROR: ${errorMessage}\n`;
-    console.error(errorEntry); // Konsola yazdır
-    fs.appendFileSync(logFilePath, errorEntry, 'utf8'); // Log dosyasına yaz
+    logMessage(`ERROR: ${errorMessage}`, 'error');
 }
 
-// Özel uyarı loglama fonksiyonu
+// Uyarılar için loglama fonksiyonu
 function logWarning(warningMessage) {
-    const warningEntry = `[${new Date().toISOString()}] WARNING: ${warningMessage}\n`;
-    console.warn(warningEntry); // Konsola yazdır
-    fs.appendFileSync(logFilePath, warningEntry, 'utf8'); // Log dosyasına yaz
+    logMessage(`WARNING: ${warningMessage}`, 'warning');
+}
+
+// Başarı veya bilgilendirme mesajları için loglama fonksiyonu
+function logInfo(infoMessage) {
+    logMessage(infoMessage, 'info');
 }
 
 module.exports = {
     logMessage,
     logError,
     logWarning,
+    logInfo,
 };
-

@@ -1,59 +1,59 @@
 // Klasör: src/mqttHandlers
 // Dosya: handleHeartbeat.js
 
-const { client } = require('../mqttHandler');  // mqttClient yerine mqttHandler kullanılıyor
-const Machine = require('../models/machines');
-const { logMessage, logError, logWarning } = require('../utils/logger');
-const Notification = require('../models/notification');
-const { sendEmail } = require('../utils/email');
+const Machine = require('../models/machines'); // Machine modelini dahil ediyoruz
+const { logMessage, logError } = require('../utils/logger'); // Loglama fonksiyonlarını dahil ediyoruz
+const { getMqttClient } = require('../mqttHandler'); // MQTT client'ı mqttHandler'dan alıyoruz
+const { formatDate } = require('../utils/dateFormatter'); // Tarih formatlama fonksiyonu
 
 /**
  * handleHeartbeatMessage - Makine heartbeat mesajlarını işler ve makinenin durumunu günceller
  * @param {Object} parsedMessage - MQTT ile gelen heartbeat mesajı, JSON formatında
  */
 async function handleHeartbeatMessage(parsedMessage) {
-    const { serialNumber, status } = parsedMessage;
+    const { serialNumber, status } = parsedMessage; // MQTT'den gelen veri
+    const client = getMqttClient(); // MQTT client'ı alıyoruz
 
-    // Makine seri numarası ve durumu kontrol ediliyor
+    // MQTT Client kontrolü
+    if (!client) {
+        logError('MQTT Client mevcut değil');
+        return;
+    }
+
+    // Seri numarası ve durum kontrolü
     if (!serialNumber || !status) {
-        logMessage(`Geçersiz veri: ${JSON.stringify(parsedMessage)}`);
+        logError(`Geçersiz veri: ${JSON.stringify(parsedMessage)}`);
+        client.publish('machines/error', JSON.stringify({ status: 'failed', message: 'Geçersiz veri' }));
         return;
     }
 
     try {
-        // Makineyi veritabanında bul
+        // Veritabanından makineyi bul
         const machine = await Machine.findOne({ serialNumber });
         if (!machine) {
-            logMessage(`Makine bulunamadı: Seri Numarası - ${serialNumber}`);
+            logError(`Makine bulunamadı: Seri Numarası - ${serialNumber}`);
+            client.publish('machines/error', JSON.stringify({ status: 'failed', message: 'Makine bulunamadı' }));
             return;
         }
 
-        // Makinenin durumunu güncelle
+        // Makinenin son durumunu ve heartbeat zamanını güncelle
         machine.status = status;
-        machine.lastHeartbeat = new Date();
-        await machine.save();
+        machine.lastHeartbeat = new Date(); // Son heartbeat zamanını güncelle
+        await machine.save(); // Veritabanına kaydet
 
-        logMessage(`Makine durumu güncellendi: Seri Numarası - ${serialNumber}, Durum - ${status}`);
+        const formattedHeartbeat = formatDate(machine.lastHeartbeat); // lastHeartbeat tarihini formatla
+        logMessage(`Makine durumu güncellendi: Seri Numarası - ${serialNumber}, Durum - ${status}, Son Heartbeat: ${formattedHeartbeat}`);
 
-        // Eğer makine 'offline' veya 'faulty' duruma geçerse teknik personele bildirim gönder
-        if (status === 'offline' || status === 'faulty') {
-            // Bildirim oluştur
-            await Notification.create({
-                machineId: machine._id,
-                message: `Makine ${serialNumber} ${status} durumuna geçti.`,
-                timestamp: new Date(),
-            });
-
-            // E-posta ile uyarı gönder
-            sendEmail({
-                to: "teknik@atlasotomasyon.com",
-                subject: `Makine ${serialNumber} durumu: ${status}`,
-                text: `Makine ${serialNumber}, ${status} durumuna geçti. Lütfen kontrol edin.`,
-            });
-        }
+        // Başarılı yanıt gönder
+        client.publish('machines/heartbeat/response', JSON.stringify({
+            serialNumber,
+            status: 'updated',
+            lastHeartbeat: formattedHeartbeat // Formatlanmış son heartbeat
+        }));
 
     } catch (error) {
-        logMessage(`Makine durumu işlenirken hata oluştu: ${error.message}`);
+        logError(`Makine durumu işlenirken hata oluştu: ${error.message}`);
+        client.publish('machines/error', JSON.stringify({ error: error.message }));
     }
 }
 

@@ -1,15 +1,11 @@
 // Klasör: src/mqttHandler.js
 
 const mqtt = require('mqtt');
-const handleCardCheck = require('./mqttHandlers/handleCard');
-const handleRegister = require('./mqttHandlers/handleRegister');
-const handleHeartbeat = require('./mqttHandlers/handleHeartbeat');
-const handleProductDeliveryRequest = require('./mqttHandlers/productDeliveryHandler');
-const { logMessage } = require('./utils/logger');
+const { logMessage, logError } = require('./utils/logger');
 
 let clientInstance = null;  // Global MQTT client instance
 
-// MQTT Client'i başlatma (Singleton)
+// MQTT Client'i başlatma (Singleton Desen)
 function start() {
     if (!clientInstance) {
         logMessage('MQTT işlemleri başlatılıyor...');
@@ -31,7 +27,7 @@ function start() {
                 'machines/delivery/request',
             ], (err) => {
                 if (err) {
-                    logMessage('Abonelik hatası: ' + err.message, 'error');
+                    logError('Abonelik hatası: ' + err.message);
                 } else {
                     logMessage('Başarıyla abone olundu');
                 }
@@ -46,6 +42,12 @@ function start() {
 
                 const normalizedTopic = topic.trim().toLowerCase();
                 logMessage(`Normalized topic: ${normalizedTopic}`);
+
+                // İmportlar burada yapılıyor, döngüsel bağımlılık oluşmuyor
+                const handleCardCheck = require('./mqttHandlers/handleCard').handleCardMessage;
+                const handleRegister = require('./mqttHandlers/handleRegister');
+                const handleHeartbeat = require('./mqttHandlers/handleHeartbeat').handleHeartbeatMessage;
+                const handleProductDeliveryRequest = require('./mqttHandlers/productDeliveryHandler');
 
                 switch (normalizedTopic) {
                     case 'machines/card':
@@ -65,11 +67,11 @@ function start() {
                         await handleProductDeliveryRequest(parsedMessage);
                         break;
                     default:
-                        logMessage(`Bilinmeyen topic: ${normalizedTopic}`);
+                        logError(`Bilinmeyen topic: ${normalizedTopic}`);
                         break;
                 }
             } catch (error) {
-                logMessage(`Mesaj işlenirken hata oluştu: ${error.message}`);
+                logError(`Mesaj işlenirken hata oluştu: ${error.message}`);
             }
         });
     } else {
@@ -77,15 +79,15 @@ function start() {
     }
 }
 
-// MQTT client instance'ını almak için
-function getClient() {
+// MQTT client instance'ını almak için (Bu sadece start çağrıldıktan sonra çalışacak)
+function getMqttClient() {
     if (!clientInstance) {
-        logMessage('MQTT Client henüz başlatılmadı', 'error');
+        logError('MQTT Client henüz başlatılmadı');
     }
     return clientInstance;
 }
 
 module.exports = {
     start,
-    getClient,
+    getMqttClient,  // Client objesini döndüren fonksiyon
 };

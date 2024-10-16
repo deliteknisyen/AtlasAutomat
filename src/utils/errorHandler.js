@@ -1,37 +1,32 @@
-// Klasör: src/utils
+// Klasör: src/middleware
 // Dosya: errorHandler.js
 
-const logMessage = require('./logMessage');
+const { logError } = require('../utils/logger');
 
-// Genel hata işleyici middleware
+/**
+ * Global hata yakalama middleware'i
+ * Tüm hataları yakalar ve uygun HTTP yanıtı döner.
+ * @param {Error} err - Yakalanan hata objesi
+ * @param {Request} req - Express request objesi
+ * @param {Response} res - Express response objesi
+ * @param {Function} next - Express next middleware fonksiyonu
+ */
 function errorHandler(err, req, res, next) {
-    // Hata detaylarını logluyoruz
-    logMessage(`Hata: ${err.message}`);
+    // Hata mesajını ve stack trace'i logluyoruz
+    logError(`Global hata: ${err.message}`);
+    if (err.stack) {
+        logError(err.stack);
+    }
 
-    // İstek ve hata detaylarını loglayalım
-    console.error('Hata Detayları:', {
-        message: err.message,
-        stack: err.stack,
-        reqMethod: req.method,
-        reqPath: req.path,
-        reqBody: req.body,
-    });
+    // HTTP statüsünü belirleyin. Eğer belirtilmemişse 500 (Internal Server Error) döndürülür.
+    const statusCode = err.statusCode || 500;
 
-    // Hata yanıtını gönderelim
-    res.status(err.statusCode || 500).json({
+    // Hata mesajını döndürün
+    res.status(statusCode).json({
         success: false,
-        message: err.message || 'Sunucu Hatası',
+        message: err.message || 'Sunucu hatası oluştu',
+        error: process.env.NODE_ENV === 'production' ? {} : err.stack, // Production modda stack trace'i gizleyin
     });
 }
 
-// Asenkron işlevlerde hata yakalamak için yardımcı işlev
-function catchAsyncErrors(fn) {
-    return (req, res, next) => {
-        Promise.resolve(fn(req, res, next)).catch(next);
-    };
-}
-
-module.exports = {
-    errorHandler,
-    catchAsyncErrors,
-};
+module.exports = errorHandler;

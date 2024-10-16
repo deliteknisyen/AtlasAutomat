@@ -1,11 +1,11 @@
 // Klasör: src/mqttHandlers
 // Dosya: productDeliveryHandler.js
 
-const Reel = require('../models/reel'); // Model ismini büyük harfle düzeltiyoruz
+const Reel = require('../models/reel');
 const SalesLog = require('../models/salesLog');
-const { logMessage } = require('../utils/logMessage');
-const notificationService = require('../services/notificationService');
-const client = require('../mqttHandler'); // Eğer client mqttClient.js'den geliyorsa
+const DeliveryLog = require('../models/deliveryLog');
+const { logMessage, logError } = require('../utils/logger');
+const { getMqttClient } = require('../mqttHandler'); // MQTT client getMqttClient ile alınıyor
 
 /**
  * handleProductDeliveryRequest - Ürün teslimat talebini işler
@@ -13,61 +13,98 @@ const client = require('../mqttHandler'); // Eğer client mqttClient.js'den geli
  */
 async function handleProductDeliveryRequest(parsedMessage) {
     const { serialNumber, cardID, compartmentNumber } = parsedMessage;
+    const client = getMqttClient(); // MQTT client'ı alınıyor
+
+    // MQTT Client kontrolü
+    if (!client) {
+        logError('MQTT Client mevcut değil');
+        return;
+    }
+
+    // Veri doğrulaması
+    if (!serialNumber || !cardID || compartmentNumber === undefined) {
+        logError(`Geçersiz veri: ${JSON.stringify(parsedMessage)}`);
+        client.publish('machines/error', JSON.stringify({
+            status: 'failed',
+            message: 'Geçersiz teslimat verisi'
+        }));
+        return;
+    }
 
     try {
-        // Makineyi ve ilgili makarayı bulalım
-        const reel = await Reel.findOne({ serialNumber }).populate('product'); // RegExp kullanmadan, serialNumber'i direkt arıyoruz
+        // Makara (Reel) ve ürünü bul
+        const reel = await Reel.findOne({ serialNumber }).populate('product');
 
         if (!reel) {
-            logMessage(`Makara bulunamadı: Seri Numarası - ${serialNumber}`);
+            logError(`Makara bulunamadı: Seri Numarası - ${serialNumber}`);
+            client.publish('machines/delivery/response', JSON.stringify({
+                serialNumber,
+                status: 'failed',
+                message: 'Makara bulunamadı'
+            }));
             return;
         }
 
         const product = reel.product;
 
-        // Ürün bulunamadıysa veya ürünün `salePrice` bilgisi yoksa hata döndür
+        // Ürün ve satış fiyatı kontrolü
         if (!product || !product.salePrice) {
-            logMessage(`Ürünün satış fiyatı bulunamadı: Makara - ${reel.serialNumber}`);
+            logError(`Ürünün satış fiyatı bulunamadı: Makara - ${reel.serialNumber}`);
+            client.publish('machines/delivery/response', JSON.stringify({
+                serialNumber,
+                status: 'failed',
+                message: 'Satış fiyatı bulunamadı'
+            }));
             return;
         }
 
-        // Compartment numarası kontrolü: Geçerli bir bölme olup olmadığını kontrol ediyoruz
+        // Teslimat işlemi ve bölme kontrolü
         if (compartmentNumber < 0 || compartmentNumber >= reel.compartments.length || !reel.compartments[compartmentNumber]) {
-            logMessage(`Geçersiz bölme numarası: ${compartmentNumber} veya bölme zaten boş.`);
+            logError(`Geçersiz bölme numarası: ${compartmentNumber} veya bölme zaten boş.`);
+            client.publish('machines/delivery/response', JSON.stringify({
+                serialNumber,
+                status: 'failed',
+                message: 'Geçersiz veya boş bölme numarası'
+            }));
             return;
         }
 
-        // Ürün teslimat işlemini burada işliyoruz
-        logMessage(`Ürün teslim ediliyor: ${product.productName}, Fiyat: ${product.salePrice}`);
-
-        // Bölme boş olarak işaretleniyor
-        reel.compartments[compartmentNumber] = false;
+        // Ürün sayısını azalt ve bölmeyi boş işaretle
         reel.productCount -= 1;
-        await reel.save(); // Makara güncelleniyor
+        reel.compartments[compartmentNumber] = false;
+        await reel.save();
 
-        // Kritik stok seviyesi kontrolü
-        if (reel.productCount <= reel.reorderLevel) {
-            logMessage(`Kritik stok seviyesi uyarısı: ${reel.serialNumber}`);
-            notificationService.sendNotification({
-                to: "depo@firma.com",
-                subject: `Kritik Stok Uyarısı: ${reel.serialNumber}`,
-                text: `Makine ${serialNumber} üzerindeki makara ${reel.serialNumber} kritik stok seviyesine ulaştı.`
-            });
-        }
+        // Teslimat log'u oluştur
+        await DeliveryLog.create({
+            reelId: reel._id,
+            compartmentNumber,
+            cardId: cardID,
+            timestamp: new Date(),
+        });
 
-        // Satış loguna kaydediyoruz
+        // Satış log'u oluştur
         await SalesLog.create({
             reelId: reel._id,
             productId: product._id,
-            compartmentNumber: compartmentNumber,
+            compartmentNumber,
             cardId: cardID,
             salePrice: product.salePrice,
             timestamp: new Date(),
         });
 
-        logMessage(`Teslimat başarılı: ${product.productName}, Bölme numarası: ${compartmentNumber}`);
+        // MQTT ile başarılı teslimat yanıtı gönder
+        logMessage(`Teslimat başarılı: Makara - ${reel.serialNumber}, Bölme numarası - ${compartmentNumber}`);
+        client.publish('machines/delivery/response', JSON.stringify({
+            serialNumber,
+            reelSerialNumber: reel.serialNumber,
+            remainingProductCount: reel.productCount,
+            compartmentNumber,
+            status: 'success'
+        }));
+
     } catch (error) {
-        logMessage(`Ürün teslimat talebi işlenirken hata oluştu: ${error.message}`);
+        logError(`Ürün teslimat talebi işlenirken hata oluştu: ${error.message}`);
+        client.publish('machines/error', JSON.stringify({ error: error.message }));
     }
 }
 

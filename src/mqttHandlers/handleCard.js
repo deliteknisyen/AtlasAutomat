@@ -1,55 +1,49 @@
-// Klasör: src/mqttHandlers/handleCard.js
-const { getClient } = require('../mqttHandler');
-const Personel = require('../models/personel');
-const { logMessage } = require('../utils/logger');
+// Klasör: src/mqttHandlers
+// Dosya: handleCard.js
 
+const Personel = require('../models/personel'); // Personel modelini dahil ediyoruz
+const { logMessage, logError } = require('../utils/logger'); // Loglama fonksiyonlarını dahil ediyoruz
+const { getMqttClient } = require('../mqttHandler'); // MQTT client'ı mqttHandler'dan alıyoruz
+
+/**
+ * handleCardCheck - Kart ID'sini kontrol eder ve uygun işlemi yapar
+ * @param {Object} parsedMessage - MQTT ile gelen mesaj, JSON formatında
+ */
 async function handleCardCheck(parsedMessage) {
     const { serialNumber, cardID } = parsedMessage;
-    const client = getClient();  // getClient() ile client'a erişiyoruz
+    const client = getMqttClient(); // MQTT client'ı alıyoruz
 
+    // MQTT Client kontrolü
+    if (!client) {
+        logError('MQTT Client mevcut değil');
+        return;
+    }
+
+    // Gerekli bilgilerin varlığını kontrol ediyoruz
     if (!serialNumber || !cardID) {
-        logMessage(`Geçersiz kart verisi: ${JSON.stringify(parsedMessage)}`);
-        client.publish('machines/card/response', JSON.stringify({
-            status: 'failed',
-            message: 'Geçersiz kart verisi',
-        }));
+        logMessage(`Geçersiz kart verisi: ${JSON.stringify(parsedMessage)}`, 'error');
+        client.publish('machines/error', JSON.stringify({ serialNumber, status: 'failed', message: 'Geçersiz kart verisi' }));
         return;
     }
 
     try {
+        // Kart ID'ye göre personeli arıyoruz
         const personel = await Personel.findOne({ kartID: cardID });
-        if (!personel) {
-            logMessage(`Kart bulunamadı: Kart ID - ${cardID}`);
-            client.publish('machines/card/response', JSON.stringify({
-                cardID,
-                status: 'invalid_card',
-                message: 'Kart bulunamadı',
-            }));
-            return;
-        }
+        if (personel) {
+            logMessage(`RFID (${cardID}) Sistemde Kayıtlı: ${personel.ad} ${personel.soyad}`);
+            const response = personel.urunAlmaHakki
+                ? { cardID, status: 'valid_card', name: `${personel.ad} ${personel.soyad}` }
+                : { cardID, status: 'invalid_card', message: 'No product rights' };
 
-        if (personel.urunAlmaHakki) {
-            logMessage(`RFID Kart geçerli: ${personel.ad} ${personel.soyad}`);
-            client.publish('machines/card/response', JSON.stringify({
-                cardID,
-                status: 'valid_card',
-                name: `${personel.ad} ${personel.soyad}`,
-            }));
+            // Kart yanıtını MQTT üzerinden gönderiyoruz
+            client.publish('machines/card/response', JSON.stringify(response));
         } else {
-            logMessage(`Kart geçersiz: ${personel.ad} ${personel.soyad} - Ürün alma hakkı yok`);
-            client.publish('machines/card/response', JSON.stringify({
-                cardID,
-                status: 'invalid_card',
-                message: 'Ürün alma hakkı yok',
-            }));
+            logMessage(`Kart (${cardID}) Sistemde bulunamadı.`);
+            client.publish('machines/card/response', JSON.stringify({ cardID, status: 'invalid_card', message: 'Card not registered' }));
         }
-
     } catch (error) {
-        logMessage(`Kart kontrol sırasında hata oluştu: ${error.message}`);
-        client.publish('machines/error', JSON.stringify({
-            status: 'error',
-            message: error.message,
-        }));
+        logError(`Kart kontrol işlemi sırasında hata oluştu: ${error.message}`);
+        client.publish('machines/error', JSON.stringify({ error: error.message }));
     }
 }
 

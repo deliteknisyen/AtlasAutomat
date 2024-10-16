@@ -3,10 +3,8 @@
 
 const Machine = require('../models/machines');
 const Notification = require('../models/notification');
-
 const { logMessage, logError, logWarning } = require('../utils/logger');
-const sendEmail = require('../utils/email');
-const client = require('../mqttHandler').client;
+const { getMqttClient } = require('../mqttHandler'); // MQTT client'ı mqttHandler'dan alınıyor
 
 /**
  * handleMachineRegister - Makine kayıt işlemini yönetir
@@ -14,6 +12,13 @@ const client = require('../mqttHandler').client;
  */
 async function handleMachineRegister(parsedMessage) {
     const { serialNumber } = parsedMessage;
+    const client = getMqttClient(); // MQTT client'ı alınıyor
+
+    // MQTT Client kontrolü
+    if (!client) {
+        logError('MQTT Client mevcut değil');
+        return;
+    }
 
     // Seri numarası kontrolü
     if (!serialNumber) {
@@ -41,7 +46,7 @@ async function handleMachineRegister(parsedMessage) {
         }));
 
     } catch (error) {
-        logMessage(`Makine kaydı sırasında hata oluştu: ${error.message}`, 'error');
+        logError(`Makine kaydı sırasında hata oluştu: ${error.message}\n${error.stack}`);
         client.publish('machines/error', JSON.stringify({ error: error.message }));
     }
 }
@@ -52,6 +57,13 @@ async function handleMachineRegister(parsedMessage) {
  */
 async function handleHeartbeatMessage(parsedMessage) {
     const { serialNumber, status } = parsedMessage;
+    const client = getMqttClient(); // MQTT client'ı alınıyor
+
+    // MQTT Client kontrolü
+    if (!client) {
+        logError('MQTT Client mevcut değil');
+        return;
+    }
 
     // Seri numarası ve durum kontrolü
     if (!serialNumber || !status) {
@@ -101,7 +113,7 @@ async function handleHeartbeatMessage(parsedMessage) {
         }));
 
     } catch (error) {
-        logMessage(`Makine durumu işlenirken hata oluştu: ${error.message}`, 'error');
+        logError(`Makine durumu işlenirken hata oluştu: ${error.message}`);
         client.publish('machines/error', JSON.stringify({ error: error.message }));
     }
 }

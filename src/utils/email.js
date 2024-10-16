@@ -2,34 +2,33 @@
 // Dosya: email.js
 
 const nodemailer = require('nodemailer');
-const logMessage = require('./logMessage');
+const { logMessage, logError } = require('./logger');
 
-// E-posta gönderimi için yapılandırma
-const transporter = nodemailer.createTransport({
-    service: 'Gmail', // Başka bir e-posta servisi kullanılabilir
-    auth: {
-        user: process.env.EMAIL_USER || 'your-email@gmail.com', // Gmail kullanıcı adı
-        pass: process.env.EMAIL_PASS || 'your-password', // Gmail şifresi
-    },
-});
+/**
+ * sendEmail - E-posta gönderme fonksiyonu
+ * @param {Object} mailOptions - Gönderilecek e-posta ayarları (to, subject, text, html)
+ * @returns {Promise<void>}
+ */
+async function sendEmail(mailOptions) {
+    // Nodemailer için transporter ayarları
+    const transporter = nodemailer.createTransport({
+        service: 'gmail', // Gmail üzerinden gönderim yapılacak
+        auth: {
+            user: process.env.EMAIL_USER, // Gönderici e-posta adresi (env dosyasından alınır)
+            pass: process.env.EMAIL_PASS, // Gönderici e-posta şifresi (env dosyasından alınır)
+        },
+    });
 
-// E-posta gönderme fonksiyonu
-async function sendEmail({ to, subject, text }) {
+    // Varsayılan gönderici e-posta adresini mailOptions içine dahil ediyoruz
+    mailOptions.from = process.env.EMAIL_USER;
+
     try {
-        const mailOptions = {
-            from: process.env.EMAIL_USER || 'your-email@gmail.com',
-            to,
-            subject,
-            text,
-        };
-
+        // E-posta gönderimi
         await transporter.sendMail(mailOptions);
-        logMessage(`E-posta başarıyla gönderildi: ${to}`);
+        logMessage(`E-posta başarıyla gönderildi: ${mailOptions.to}, Konu: ${mailOptions.subject}`);
     } catch (error) {
-        logMessage(`E-posta gönderimi sırasında hata oluştu: ${error.message}`);
+        logError(`E-posta gönderim hatası: ${error.message}`);
     }
 }
 
-module.exports = {
-    sendEmail,
-};
+module.exports = sendEmail;

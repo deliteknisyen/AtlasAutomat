@@ -2,8 +2,8 @@
 // Dosya: cardHandler.js
 
 const Personel = require('../models/personel'); // Personel modelini dahil ediyoruz
-const logMessage = require('../utils/logger'); // Loglama fonksiyonunu dahil ediyoruz
-const client = require('../mqttHandler').client; // MQTT client'ı dahil ediyoruz
+const { getMqttClient } = require('../mqttHandler'); // MQTT client'ı mqttHandler'dan alıyoruz
+const { logMessage, logError } = require('../utils/logger'); // Loglama fonksiyonlarını dahil ediyoruz
 
 /**
  * handleCardMessage - Gelen kart mesajını işler
@@ -11,6 +11,13 @@ const client = require('../mqttHandler').client; // MQTT client'ı dahil ediyoru
  */
 async function handleCardMessage(parsedMessage) {
     const { serialNumber, cardID } = parsedMessage;
+    const client = getMqttClient(); // getMqttClient ile MQTT client'ı alınıyor
+
+    // MQTT Client kontrolü
+    if (!client) {
+        logError('MQTT Client mevcut değil');
+        return;
+    }
 
     // Gerekli bilgilerin varlığını kontrol ediyoruz
     if (!serialNumber || !cardID) {
@@ -35,11 +42,10 @@ async function handleCardMessage(parsedMessage) {
             client.publish('machines/card/response', JSON.stringify({ cardID, status: 'invalid_card', message: 'Card not registered' }));
         }
     } catch (error) {
-        logMessage(`Kart kontrol işlemi sırasında hata oluştu: ${error.message}`);
+        logError(`Kart kontrol işlemi sırasında hata oluştu: ${error.message}`);
         client.publish('machines/error', JSON.stringify({ error: error.message }));
     }
 }
-
 
 module.exports = {
     handleCardMessage,

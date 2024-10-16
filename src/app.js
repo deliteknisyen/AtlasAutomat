@@ -1,11 +1,13 @@
 // Klasör: src/app.js
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const morgan = require('morgan');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
-const path = require('path');  // path modülü eklendi
+const path = require('path'); // path modülü eklendi
+
 
 // Route dosyaları
 const reelRoutes = require('./routes/reelRoutes');
@@ -77,7 +79,7 @@ app.use((err, req, res, next) => {
 });
 
 // Sunucu başlatma
-const PORT = process.env.PORT || 3010;
+const PORT = process.env.PORT || 3030;
 app.listen(PORT, () => {
     console.log(`Sunucu ${PORT} portunda çalışıyor`);
 });
