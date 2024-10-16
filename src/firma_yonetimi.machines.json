@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "670cdb6312f975838f039030"
+  },
+  "serialNumber": "6660469940078142",
+  "model": "Safety Product Machine",
+  "isActive": true,
+  "token": "",
+  "status": "online",
+  "lastHeartbeat": {
+    "$date": "2024-10-15T09:51:18.862Z"
+  },
+  "reels": [
+    {
+      "$oid": "670d921a3f35db08a3712dda"
+    },
+    {
+      "$oid": "670d9581912a7f180298b538"
+    },
+    {
+      "$oid": "670d959c912a7f180298b53c"
+    },
+    {
+      "$oid": "670d9774912a7f180298b7c8"
+    },
+    {
+      "$oid": "670d9cd39807f1523ddbdf5c"
+    },
+    {
+      "$oid": "670da8d644f1f549e8b227e4"
+    },
+    {
+      "$oid": "670da91044f1f549e8b227ea"
+    },
+    {
+      "$oid": "670dab4a7a733e5b1f47b450"
+    },
+    {
+      "$oid": "670dbda9640a3d972b9d56cb"
+    },
+    {
+      "$oid": "670eff3b0a410660a926f88d"
+    }
+  ],
+  "__v": 10,
+  "createdAt": {
+    "$date": "2024-10-14T19:16:44.162Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-15T23:48:11.824Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "670f85a67eb50b44dc755121"
+  },
+  "serialNumber": "3943586267902816",
+  "isActive": false,
+  "status": "unregistered",
+  "reels": [],
+  "createdAt": {
+    "$date": "2024-10-16T09:21:42.449Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-16T09:21:42.469Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "670cdb6312f975838f039039"
+  },
+  "TCKN": "omnis",
+  "kartID": "1:d9:e5:2e",
+  "ad": "Murat",
+  "soyad": "DALGIC",
+  "telefon": "(546) 340-6638 x0725",
+  "eposta": "Quinton_Mueller@gmail.com",
+  "dogumTarihi": {
+    "$date": "2024-05-18T00:23:48.264Z"
+  },
+  "cinsiyet": "aureus",
+  "adres": "715 Haley Garden",
+  "il": "Lake Naomieberg",
+  "ilce": "Cheshire",
+  "semt": "Marc Expressway",
+  "urunAlmaHakki": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670d961e5bba5759855c3e6c"
+  },
+  "TCKN": "16394505564",
+  "kartID": "5:8c:4:3b:d4:21:0",
+  "ad": "Serpil",
+  "soyad": "DURMUS",
+  "telefon": "(546) 340-6638 x0725",
+  "eposta": "Quinton_Mueller@gmail.com",
+  "dogumTarihi": {
+    "$date": "2024-05-18T00:23:48.264Z"
+  },
+  "cinsiyet": "aureus",
+  "adres": "715 Haley Garden",
+  "il": "Lake Naomieberg",
+  "ilce": "Cheshire",
+  "semt": "Marc Expressway",
+  "urunAlmaHakki": true,
+  "__v": 0
+}]

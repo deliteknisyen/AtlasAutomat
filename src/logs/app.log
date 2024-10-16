@@ -592,3 +592,660 @@
 [2024-10-16T14:03:33.713Z] [2024-10-16T14:03:33.713Z] [INFO] Normalized topic: machines/heartbeat
 [2024-10-16T14:03:33.713Z] [2024-10-16T14:03:33.713Z] [INFO] Heartbeat mesajı işleniyor
 [2024-10-16T14:03:33.717Z] [2024-10-16T14:03:33.717Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 17:03:33
+[2024-10-16T14:55:26.421Z] [2024-10-16T14:55:26.419Z] [INFO] MQTT işlemleri başlatılıyor...
+[2024-10-16T14:55:26.482Z] [2024-10-16T14:55:26.482Z] [INFO] MQTT Broker bağlantısı başarılı
+[2024-10-16T14:55:26.517Z] [2024-10-16T14:55:26.517Z] [INFO] Başarıyla abone olundu
+[2024-10-16T14:55:35.130Z] [2024-10-16T14:55:35.130Z] [INFO] Gelen topic: machines/register
+[2024-10-16T14:55:35.130Z] [2024-10-16T14:55:35.130Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816"}
+[2024-10-16T14:55:35.131Z] [2024-10-16T14:55:35.131Z] [INFO] Normalized topic: machines/register
+[2024-10-16T14:55:35.134Z] [2024-10-16T14:55:35.134Z] [INFO] Kayıt mesajı işleniyor
+[2024-10-16T14:55:35.141Z] [2024-10-16T14:55:35.141Z] [INFO] Makine kayıtlı: 3943586267902816
+[2024-10-16T14:55:35.149Z] [2024-10-16T14:55:35.149Z] [INFO] Makine kayıtlı: 3943586267902816, Token oluşturuldu
+[2024-10-16T14:56:34.640Z] [2024-10-16T14:56:34.639Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T14:56:34.640Z] [2024-10-16T14:56:34.640Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T14:56:34.640Z] [2024-10-16T14:56:34.640Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T14:56:34.641Z] [2024-10-16T14:56:34.641Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T14:56:34.645Z] [2024-10-16T14:56:34.645Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 17:56:34
+[2024-10-16T14:57:35.038Z] [2024-10-16T14:57:35.038Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T14:57:35.039Z] [2024-10-16T14:57:35.039Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T14:57:35.039Z] [2024-10-16T14:57:35.039Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T14:57:35.039Z] [2024-10-16T14:57:35.039Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T14:57:35.043Z] [2024-10-16T14:57:35.043Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 17:57:35
+[2024-10-16T14:58:35.386Z] [2024-10-16T14:58:35.385Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T14:58:35.386Z] [2024-10-16T14:58:35.386Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T14:58:35.386Z] [2024-10-16T14:58:35.386Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T14:58:35.387Z] [2024-10-16T14:58:35.387Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T14:58:35.391Z] [2024-10-16T14:58:35.391Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 17:58:35
+[2024-10-16T14:59:35.765Z] [2024-10-16T14:59:35.765Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T14:59:35.766Z] [2024-10-16T14:59:35.765Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T14:59:35.766Z] [2024-10-16T14:59:35.766Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T14:59:35.766Z] [2024-10-16T14:59:35.766Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T14:59:35.769Z] [2024-10-16T14:59:35.769Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 17:59:35
+[2024-10-16T15:00:36.144Z] [2024-10-16T15:00:36.144Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:00:36.145Z] [2024-10-16T15:00:36.144Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:00:36.145Z] [2024-10-16T15:00:36.145Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:00:36.145Z] [2024-10-16T15:00:36.145Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:00:36.148Z] [2024-10-16T15:00:36.148Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:00:36
+[2024-10-16T15:01:36.516Z] [2024-10-16T15:01:36.516Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:01:36.517Z] [2024-10-16T15:01:36.517Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:01:36.517Z] [2024-10-16T15:01:36.517Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:01:36.518Z] [2024-10-16T15:01:36.518Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:01:36.521Z] [2024-10-16T15:01:36.521Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:01:36
+[2024-10-16T15:02:36.888Z] [2024-10-16T15:02:36.888Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:02:36.889Z] [2024-10-16T15:02:36.889Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:02:36.889Z] [2024-10-16T15:02:36.889Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:02:36.890Z] [2024-10-16T15:02:36.889Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:02:36.892Z] [2024-10-16T15:02:36.892Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:02:36
+[2024-10-16T15:03:37.273Z] [2024-10-16T15:03:37.273Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:03:37.274Z] [2024-10-16T15:03:37.274Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:03:37.274Z] [2024-10-16T15:03:37.274Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:03:37.274Z] [2024-10-16T15:03:37.274Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:03:37.278Z] [2024-10-16T15:03:37.278Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:03:37
+[2024-10-16T15:04:37.645Z] [2024-10-16T15:04:37.644Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:04:37.645Z] [2024-10-16T15:04:37.645Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:04:37.645Z] [2024-10-16T15:04:37.645Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:04:37.645Z] [2024-10-16T15:04:37.645Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:04:37.649Z] [2024-10-16T15:04:37.648Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:04:37
+[2024-10-16T15:05:16.862Z] [2024-10-16T15:05:16.862Z] [INFO] Gelen topic: machines/card
+[2024-10-16T15:05:16.863Z] [2024-10-16T15:05:16.863Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "5:8c:4:3b:d4:21:0"}
+[2024-10-16T15:05:16.863Z] [2024-10-16T15:05:16.863Z] [INFO] Normalized topic: machines/card
+[2024-10-16T15:05:16.863Z] [2024-10-16T15:05:16.863Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T15:05:16.864Z] [2024-10-16T15:05:16.864Z] [ERROR] ERROR: Mesaj işlenirken hata oluştu: handleCardCheck is not a function
+[2024-10-16T15:05:20.430Z] [2024-10-16T15:05:20.430Z] [INFO] Gelen topic: machines/card
+[2024-10-16T15:05:20.430Z] [2024-10-16T15:05:20.430Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e"}
+[2024-10-16T15:05:20.431Z] [2024-10-16T15:05:20.431Z] [INFO] Normalized topic: machines/card
+[2024-10-16T15:05:20.431Z] [2024-10-16T15:05:20.431Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T15:05:20.431Z] [2024-10-16T15:05:20.431Z] [ERROR] ERROR: Mesaj işlenirken hata oluştu: handleCardCheck is not a function
+[2024-10-16T15:05:37.943Z] [2024-10-16T15:05:37.943Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:05:37.944Z] [2024-10-16T15:05:37.943Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:05:37.944Z] [2024-10-16T15:05:37.944Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:05:37.944Z] [2024-10-16T15:05:37.944Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:05:37.947Z] [2024-10-16T15:05:37.947Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:05:37
+[2024-10-16T15:06:38.323Z] [2024-10-16T15:06:38.323Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:06:38.323Z] [2024-10-16T15:06:38.323Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:06:38.324Z] [2024-10-16T15:06:38.323Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:06:38.324Z] [2024-10-16T15:06:38.324Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:06:38.327Z] [2024-10-16T15:06:38.327Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:06:38
+[2024-10-16T15:07:38.700Z] [2024-10-16T15:07:38.700Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:07:38.701Z] [2024-10-16T15:07:38.701Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:07:38.701Z] [2024-10-16T15:07:38.701Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:07:38.701Z] [2024-10-16T15:07:38.701Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:07:38.705Z] [2024-10-16T15:07:38.704Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:07:38
+[2024-10-16T15:08:39.073Z] [2024-10-16T15:08:39.073Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:08:39.073Z] [2024-10-16T15:08:39.073Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:08:39.074Z] [2024-10-16T15:08:39.073Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:08:39.074Z] [2024-10-16T15:08:39.074Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:08:39.077Z] [2024-10-16T15:08:39.077Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:08:39
+[2024-10-16T15:09:39.453Z] [2024-10-16T15:09:39.452Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:09:39.453Z] [2024-10-16T15:09:39.453Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:09:39.453Z] [2024-10-16T15:09:39.453Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:09:39.454Z] [2024-10-16T15:09:39.454Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:09:39.456Z] [2024-10-16T15:09:39.456Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:09:39
+[2024-10-16T15:10:39.822Z] [2024-10-16T15:10:39.822Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:10:39.823Z] [2024-10-16T15:10:39.823Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:10:39.823Z] [2024-10-16T15:10:39.823Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:10:39.823Z] [2024-10-16T15:10:39.823Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:10:39.826Z] [2024-10-16T15:10:39.826Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:10:39
+[2024-10-16T15:11:40.213Z] [2024-10-16T15:11:40.213Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:11:40.213Z] [2024-10-16T15:11:40.213Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:11:40.214Z] [2024-10-16T15:11:40.214Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:11:40.214Z] [2024-10-16T15:11:40.214Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:11:40.216Z] [2024-10-16T15:11:40.216Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:11:40
+[2024-10-16T15:12:40.576Z] [2024-10-16T15:12:40.575Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:12:40.576Z] [2024-10-16T15:12:40.576Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:12:40.576Z] [2024-10-16T15:12:40.576Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:12:40.577Z] [2024-10-16T15:12:40.576Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:12:40.579Z] [2024-10-16T15:12:40.579Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:12:40
+[2024-10-16T15:13:40.963Z] [2024-10-16T15:13:40.963Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:13:40.963Z] [2024-10-16T15:13:40.963Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:13:40.963Z] [2024-10-16T15:13:40.963Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:13:40.964Z] [2024-10-16T15:13:40.964Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:13:40.966Z] [2024-10-16T15:13:40.966Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:13:40
+[2024-10-16T15:14:41.329Z] [2024-10-16T15:14:41.329Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:14:41.330Z] [2024-10-16T15:14:41.330Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:14:41.330Z] [2024-10-16T15:14:41.330Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:14:41.330Z] [2024-10-16T15:14:41.330Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:14:41.333Z] [2024-10-16T15:14:41.333Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:14:41
+[2024-10-16T15:15:41.702Z] [2024-10-16T15:15:41.702Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:15:41.702Z] [2024-10-16T15:15:41.702Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:15:41.702Z] [2024-10-16T15:15:41.702Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:15:41.703Z] [2024-10-16T15:15:41.703Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:15:41.705Z] [2024-10-16T15:15:41.705Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:15:41
+[2024-10-16T15:16:42.165Z] [2024-10-16T15:16:42.165Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:16:42.165Z] [2024-10-16T15:16:42.165Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:16:42.166Z] [2024-10-16T15:16:42.165Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:16:42.166Z] [2024-10-16T15:16:42.166Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:16:42.168Z] [2024-10-16T15:16:42.168Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:16:42
+[2024-10-16T15:17:42.449Z] [2024-10-16T15:17:42.449Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:17:42.450Z] [2024-10-16T15:17:42.449Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:17:42.450Z] [2024-10-16T15:17:42.450Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:17:42.450Z] [2024-10-16T15:17:42.450Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:17:42.452Z] [2024-10-16T15:17:42.452Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:17:42
+[2024-10-16T15:18:42.830Z] [2024-10-16T15:18:42.829Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:18:42.830Z] [2024-10-16T15:18:42.830Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:18:42.830Z] [2024-10-16T15:18:42.830Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:18:42.831Z] [2024-10-16T15:18:42.831Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:18:42.833Z] [2024-10-16T15:18:42.833Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:18:42
+[2024-10-16T15:19:43.202Z] [2024-10-16T15:19:43.202Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:19:43.203Z] [2024-10-16T15:19:43.203Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:19:43.203Z] [2024-10-16T15:19:43.203Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:19:43.203Z] [2024-10-16T15:19:43.203Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:19:43.206Z] [2024-10-16T15:19:43.206Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:19:43
+[2024-10-16T15:20:43.577Z] [2024-10-16T15:20:43.577Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:20:43.577Z] [2024-10-16T15:20:43.577Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:20:43.577Z] [2024-10-16T15:20:43.577Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:20:43.578Z] [2024-10-16T15:20:43.578Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:20:43.580Z] [2024-10-16T15:20:43.580Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:20:43
+[2024-10-16T15:21:43.951Z] [2024-10-16T15:21:43.951Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:21:43.951Z] [2024-10-16T15:21:43.951Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:21:43.952Z] [2024-10-16T15:21:43.952Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:21:43.952Z] [2024-10-16T15:21:43.952Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:21:43.954Z] [2024-10-16T15:21:43.954Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:21:43
+[2024-10-16T15:22:44.328Z] [2024-10-16T15:22:44.328Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:22:44.328Z] [2024-10-16T15:22:44.328Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:22:44.328Z] [2024-10-16T15:22:44.328Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:22:44.329Z] [2024-10-16T15:22:44.329Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:22:44.331Z] [2024-10-16T15:22:44.331Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:22:44
+[2024-10-16T15:23:44.702Z] [2024-10-16T15:23:44.702Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:23:44.703Z] [2024-10-16T15:23:44.702Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:23:44.703Z] [2024-10-16T15:23:44.703Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:23:44.703Z] [2024-10-16T15:23:44.703Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:23:44.705Z] [2024-10-16T15:23:44.705Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:23:44
+[2024-10-16T15:24:45.079Z] [2024-10-16T15:24:45.079Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:24:45.079Z] [2024-10-16T15:24:45.079Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:24:45.079Z] [2024-10-16T15:24:45.079Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:24:45.080Z] [2024-10-16T15:24:45.080Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:24:45.082Z] [2024-10-16T15:24:45.082Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:24:45
+[2024-10-16T15:25:45.454Z] [2024-10-16T15:25:45.454Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:25:45.455Z] [2024-10-16T15:25:45.455Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:25:45.455Z] [2024-10-16T15:25:45.455Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:25:45.455Z] [2024-10-16T15:25:45.455Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:25:45.458Z] [2024-10-16T15:25:45.457Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:25:45
+[2024-10-16T15:26:45.831Z] [2024-10-16T15:26:45.831Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:26:45.832Z] [2024-10-16T15:26:45.831Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:26:45.832Z] [2024-10-16T15:26:45.832Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:26:45.832Z] [2024-10-16T15:26:45.832Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:26:45.834Z] [2024-10-16T15:26:45.834Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:26:45
+[2024-10-16T15:27:46.207Z] [2024-10-16T15:27:46.206Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:27:46.207Z] [2024-10-16T15:27:46.207Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:27:46.207Z] [2024-10-16T15:27:46.207Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:27:46.208Z] [2024-10-16T15:27:46.207Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:27:46.210Z] [2024-10-16T15:27:46.210Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:27:46
+[2024-10-16T15:28:46.578Z] [2024-10-16T15:28:46.578Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:28:46.579Z] [2024-10-16T15:28:46.579Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:28:46.579Z] [2024-10-16T15:28:46.579Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:28:46.579Z] [2024-10-16T15:28:46.579Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:28:46.582Z] [2024-10-16T15:28:46.582Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:28:46
+[2024-10-16T15:29:46.960Z] [2024-10-16T15:29:46.959Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:29:46.960Z] [2024-10-16T15:29:46.960Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:29:46.960Z] [2024-10-16T15:29:46.960Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:29:46.961Z] [2024-10-16T15:29:46.961Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:29:46.964Z] [2024-10-16T15:29:46.964Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:29:46
+[2024-10-16T15:30:47.336Z] [2024-10-16T15:30:47.336Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:30:47.337Z] [2024-10-16T15:30:47.337Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:30:47.337Z] [2024-10-16T15:30:47.337Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:30:47.337Z] [2024-10-16T15:30:47.337Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:30:47.339Z] [2024-10-16T15:30:47.339Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:30:47
+[2024-10-16T15:31:47.715Z] [2024-10-16T15:31:47.715Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:31:47.716Z] [2024-10-16T15:31:47.716Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:31:47.716Z] [2024-10-16T15:31:47.716Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:31:47.716Z] [2024-10-16T15:31:47.716Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:31:47.718Z] [2024-10-16T15:31:47.718Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:31:47
+[2024-10-16T15:32:48.093Z] [2024-10-16T15:32:48.093Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:32:48.094Z] [2024-10-16T15:32:48.094Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:32:48.094Z] [2024-10-16T15:32:48.094Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:32:48.094Z] [2024-10-16T15:32:48.094Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:32:48.097Z] [2024-10-16T15:32:48.096Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:32:48
+[2024-10-16T15:33:48.477Z] [2024-10-16T15:33:48.477Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:33:48.477Z] [2024-10-16T15:33:48.477Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:33:48.477Z] [2024-10-16T15:33:48.477Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:33:48.478Z] [2024-10-16T15:33:48.478Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:33:48.480Z] [2024-10-16T15:33:48.480Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:33:48
+[2024-10-16T15:34:48.848Z] [2024-10-16T15:34:48.848Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:34:48.849Z] [2024-10-16T15:34:48.848Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:34:48.849Z] [2024-10-16T15:34:48.849Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:34:48.849Z] [2024-10-16T15:34:48.849Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:34:48.851Z] [2024-10-16T15:34:48.851Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:34:48
+[2024-10-16T15:35:49.229Z] [2024-10-16T15:35:49.229Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:35:49.230Z] [2024-10-16T15:35:49.230Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:35:49.230Z] [2024-10-16T15:35:49.230Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:35:49.230Z] [2024-10-16T15:35:49.230Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:35:49.232Z] [2024-10-16T15:35:49.232Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:35:49
+[2024-10-16T15:36:49.595Z] [2024-10-16T15:36:49.595Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:36:49.595Z] [2024-10-16T15:36:49.595Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:36:49.595Z] [2024-10-16T15:36:49.595Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:36:49.596Z] [2024-10-16T15:36:49.596Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:36:49.598Z] [2024-10-16T15:36:49.598Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:36:49
+[2024-10-16T15:37:49.974Z] [2024-10-16T15:37:49.974Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:37:49.974Z] [2024-10-16T15:37:49.974Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:37:49.975Z] [2024-10-16T15:37:49.975Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:37:49.975Z] [2024-10-16T15:37:49.975Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:37:49.977Z] [2024-10-16T15:37:49.977Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:37:49
+[2024-10-16T15:38:50.341Z] [2024-10-16T15:38:50.341Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:38:50.341Z] [2024-10-16T15:38:50.341Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:38:50.341Z] [2024-10-16T15:38:50.341Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:38:50.342Z] [2024-10-16T15:38:50.342Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:38:50.344Z] [2024-10-16T15:38:50.344Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:38:50
+[2024-10-16T15:39:50.716Z] [2024-10-16T15:39:50.716Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:39:50.716Z] [2024-10-16T15:39:50.716Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:39:50.717Z] [2024-10-16T15:39:50.717Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:39:50.717Z] [2024-10-16T15:39:50.717Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:39:50.719Z] [2024-10-16T15:39:50.719Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:39:50
+[2024-10-16T15:40:51.095Z] [2024-10-16T15:40:51.095Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:40:51.095Z] [2024-10-16T15:40:51.095Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:40:51.095Z] [2024-10-16T15:40:51.095Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:40:51.096Z] [2024-10-16T15:40:51.096Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:40:51.098Z] [2024-10-16T15:40:51.098Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:40:51
+[2024-10-16T15:41:51.474Z] [2024-10-16T15:41:51.474Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:41:51.475Z] [2024-10-16T15:41:51.475Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:41:51.475Z] [2024-10-16T15:41:51.475Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:41:51.475Z] [2024-10-16T15:41:51.475Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:41:51.477Z] [2024-10-16T15:41:51.477Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:41:51
+[2024-10-16T15:42:51.843Z] [2024-10-16T15:42:51.843Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:42:51.844Z] [2024-10-16T15:42:51.844Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:42:51.844Z] [2024-10-16T15:42:51.844Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:42:51.844Z] [2024-10-16T15:42:51.844Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:42:51.847Z] [2024-10-16T15:42:51.846Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:42:51
+[2024-10-16T15:43:52.222Z] [2024-10-16T15:43:52.222Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:43:52.223Z] [2024-10-16T15:43:52.223Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:43:52.223Z] [2024-10-16T15:43:52.223Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:43:52.224Z] [2024-10-16T15:43:52.224Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:43:52.226Z] [2024-10-16T15:43:52.226Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:43:52
+[2024-10-16T15:44:52.592Z] [2024-10-16T15:44:52.592Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:44:52.593Z] [2024-10-16T15:44:52.593Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:44:52.593Z] [2024-10-16T15:44:52.593Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:44:52.593Z] [2024-10-16T15:44:52.593Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:44:52.596Z] [2024-10-16T15:44:52.596Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:44:52
+[2024-10-16T15:45:52.967Z] [2024-10-16T15:45:52.967Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:45:52.968Z] [2024-10-16T15:45:52.968Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:45:52.968Z] [2024-10-16T15:45:52.968Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:45:52.968Z] [2024-10-16T15:45:52.968Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:45:52.970Z] [2024-10-16T15:45:52.970Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:45:52
+[2024-10-16T15:46:53.340Z] [2024-10-16T15:46:53.340Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:46:53.341Z] [2024-10-16T15:46:53.341Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:46:53.341Z] [2024-10-16T15:46:53.341Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:46:53.341Z] [2024-10-16T15:46:53.341Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:46:53.344Z] [2024-10-16T15:46:53.344Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:46:53
+[2024-10-16T15:47:53.720Z] [2024-10-16T15:47:53.720Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:47:53.721Z] [2024-10-16T15:47:53.721Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:47:53.721Z] [2024-10-16T15:47:53.721Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:47:53.721Z] [2024-10-16T15:47:53.721Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:47:53.724Z] [2024-10-16T15:47:53.723Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:47:53
+[2024-10-16T15:48:54.092Z] [2024-10-16T15:48:54.092Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:48:54.092Z] [2024-10-16T15:48:54.092Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:48:54.093Z] [2024-10-16T15:48:54.092Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:48:54.093Z] [2024-10-16T15:48:54.093Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:48:54.095Z] [2024-10-16T15:48:54.095Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:48:54
+[2024-10-16T15:49:54.471Z] [2024-10-16T15:49:54.470Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:49:54.471Z] [2024-10-16T15:49:54.471Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:49:54.471Z] [2024-10-16T15:49:54.471Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:49:54.472Z] [2024-10-16T15:49:54.472Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:49:54.474Z] [2024-10-16T15:49:54.474Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:49:54
+[2024-10-16T15:50:54.846Z] [2024-10-16T15:50:54.845Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:50:54.846Z] [2024-10-16T15:50:54.846Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:50:54.846Z] [2024-10-16T15:50:54.846Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:50:54.847Z] [2024-10-16T15:50:54.846Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:50:54.849Z] [2024-10-16T15:50:54.849Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:50:54
+[2024-10-16T15:51:55.227Z] [2024-10-16T15:51:55.227Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:51:55.227Z] [2024-10-16T15:51:55.227Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:51:55.228Z] [2024-10-16T15:51:55.228Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:51:55.228Z] [2024-10-16T15:51:55.228Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:51:55.230Z] [2024-10-16T15:51:55.230Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:51:55
+[2024-10-16T15:52:55.595Z] [2024-10-16T15:52:55.595Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:52:55.595Z] [2024-10-16T15:52:55.595Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:52:55.596Z] [2024-10-16T15:52:55.595Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:52:55.596Z] [2024-10-16T15:52:55.596Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:52:55.598Z] [2024-10-16T15:52:55.598Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:52:55
+[2024-10-16T15:53:55.974Z] [2024-10-16T15:53:55.974Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:53:55.974Z] [2024-10-16T15:53:55.974Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:53:55.975Z] [2024-10-16T15:53:55.975Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:53:55.975Z] [2024-10-16T15:53:55.975Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:53:55.978Z] [2024-10-16T15:53:55.978Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:53:55
+[2024-10-16T15:54:56.355Z] [2024-10-16T15:54:56.355Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:54:56.356Z] [2024-10-16T15:54:56.356Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:54:56.356Z] [2024-10-16T15:54:56.356Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:54:56.357Z] [2024-10-16T15:54:56.357Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:54:56.359Z] [2024-10-16T15:54:56.359Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:54:56
+[2024-10-16T15:55:56.720Z] [2024-10-16T15:55:56.720Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:55:56.721Z] [2024-10-16T15:55:56.721Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:55:56.721Z] [2024-10-16T15:55:56.721Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:55:56.722Z] [2024-10-16T15:55:56.722Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:55:56.725Z] [2024-10-16T15:55:56.725Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:55:56
+[2024-10-16T15:56:57.131Z] [2024-10-16T15:56:57.131Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:56:57.131Z] [2024-10-16T15:56:57.131Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:56:57.132Z] [2024-10-16T15:56:57.132Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:56:57.132Z] [2024-10-16T15:56:57.132Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:56:57.135Z] [2024-10-16T15:56:57.135Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:56:57
+[2024-10-16T15:58:18.144Z] [2024-10-16T15:58:18.143Z] [INFO] MQTT Broker bağlantısı başarılı
+[2024-10-16T15:58:18.145Z] [2024-10-16T15:58:18.145Z] [INFO] Başarıyla abone olundu
+[2024-10-16T15:58:58.557Z] [2024-10-16T15:58:58.557Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:58:58.557Z] [2024-10-16T15:58:58.557Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:58:58.557Z] [2024-10-16T15:58:58.557Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:58:58.558Z] [2024-10-16T15:58:58.558Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:58:58.560Z] [2024-10-16T15:58:58.560Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:58:58
+[2024-10-16T15:59:58.928Z] [2024-10-16T15:59:58.928Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T15:59:58.928Z] [2024-10-16T15:59:58.928Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T15:59:58.929Z] [2024-10-16T15:59:58.929Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T15:59:58.929Z] [2024-10-16T15:59:58.929Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T15:59:58.931Z] [2024-10-16T15:59:58.931Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 18:59:58
+[2024-10-16T16:00:59.304Z] [2024-10-16T16:00:59.304Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:00:59.304Z] [2024-10-16T16:00:59.304Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:00:59.305Z] [2024-10-16T16:00:59.305Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:00:59.305Z] [2024-10-16T16:00:59.305Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:00:59.307Z] [2024-10-16T16:00:59.307Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:00:59
+[2024-10-16T16:01:59.676Z] [2024-10-16T16:01:59.676Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:01:59.676Z] [2024-10-16T16:01:59.676Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:01:59.676Z] [2024-10-16T16:01:59.676Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:01:59.677Z] [2024-10-16T16:01:59.677Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:01:59.679Z] [2024-10-16T16:01:59.679Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:01:59
+[2024-10-16T16:03:00.051Z] [2024-10-16T16:03:00.051Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:03:00.051Z] [2024-10-16T16:03:00.051Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:03:00.052Z] [2024-10-16T16:03:00.052Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:03:00.052Z] [2024-10-16T16:03:00.052Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:03:00.054Z] [2024-10-16T16:03:00.054Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:03:00
+[2024-10-16T16:04:00.430Z] [2024-10-16T16:04:00.429Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:04:00.430Z] [2024-10-16T16:04:00.430Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:04:00.430Z] [2024-10-16T16:04:00.430Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:04:00.430Z] [2024-10-16T16:04:00.430Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:04:00.433Z] [2024-10-16T16:04:00.433Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:04:00
+[2024-10-16T16:05:00.800Z] [2024-10-16T16:05:00.800Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:05:00.801Z] [2024-10-16T16:05:00.800Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:05:00.801Z] [2024-10-16T16:05:00.801Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:05:00.801Z] [2024-10-16T16:05:00.801Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:05:00.803Z] [2024-10-16T16:05:00.803Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:05:00
+[2024-10-16T16:06:01.178Z] [2024-10-16T16:06:01.177Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:06:01.178Z] [2024-10-16T16:06:01.178Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:06:01.178Z] [2024-10-16T16:06:01.178Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:06:01.178Z] [2024-10-16T16:06:01.178Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:06:01.180Z] [2024-10-16T16:06:01.180Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:06:01
+[2024-10-16T16:07:01.553Z] [2024-10-16T16:07:01.553Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:07:01.554Z] [2024-10-16T16:07:01.553Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:07:01.554Z] [2024-10-16T16:07:01.554Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:07:01.554Z] [2024-10-16T16:07:01.554Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:07:01.556Z] [2024-10-16T16:07:01.556Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:07:01
+[2024-10-16T16:08:01.927Z] [2024-10-16T16:08:01.927Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:08:01.927Z] [2024-10-16T16:08:01.927Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:08:01.928Z] [2024-10-16T16:08:01.927Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:08:01.928Z] [2024-10-16T16:08:01.928Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:08:01.930Z] [2024-10-16T16:08:01.930Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:08:01
+[2024-10-16T16:09:02.307Z] [2024-10-16T16:09:02.306Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:09:02.307Z] [2024-10-16T16:09:02.307Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:09:02.307Z] [2024-10-16T16:09:02.307Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:09:02.308Z] [2024-10-16T16:09:02.307Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:09:02.310Z] [2024-10-16T16:09:02.309Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:09:02
+[2024-10-16T16:10:02.680Z] [2024-10-16T16:10:02.679Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:10:02.680Z] [2024-10-16T16:10:02.680Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:10:02.680Z] [2024-10-16T16:10:02.680Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:10:02.681Z] [2024-10-16T16:10:02.680Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:10:02.683Z] [2024-10-16T16:10:02.683Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:10:02
+[2024-10-16T16:11:03.061Z] [2024-10-16T16:11:03.060Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:11:03.061Z] [2024-10-16T16:11:03.061Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:11:03.061Z] [2024-10-16T16:11:03.061Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:11:03.061Z] [2024-10-16T16:11:03.061Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:11:03.063Z] [2024-10-16T16:11:03.063Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:11:03
+[2024-10-16T16:12:03.436Z] [2024-10-16T16:12:03.436Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:12:03.436Z] [2024-10-16T16:12:03.436Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:12:03.437Z] [2024-10-16T16:12:03.437Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:12:03.437Z] [2024-10-16T16:12:03.437Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:12:03.439Z] [2024-10-16T16:12:03.439Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:12:03
+[2024-10-16T16:13:03.809Z] [2024-10-16T16:13:03.809Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:13:03.810Z] [2024-10-16T16:13:03.810Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:13:03.810Z] [2024-10-16T16:13:03.810Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:13:03.810Z] [2024-10-16T16:13:03.810Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:13:03.813Z] [2024-10-16T16:13:03.813Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:13:03
+[2024-10-16T16:14:04.183Z] [2024-10-16T16:14:04.183Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:14:04.183Z] [2024-10-16T16:14:04.183Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:14:04.183Z] [2024-10-16T16:14:04.183Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:14:04.184Z] [2024-10-16T16:14:04.183Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:14:04.186Z] [2024-10-16T16:14:04.186Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:14:04
+[2024-10-16T16:15:04.560Z] [2024-10-16T16:15:04.560Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:15:04.561Z] [2024-10-16T16:15:04.561Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:15:04.561Z] [2024-10-16T16:15:04.561Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:15:04.561Z] [2024-10-16T16:15:04.561Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:15:04.564Z] [2024-10-16T16:15:04.564Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:15:04
+[2024-10-16T16:16:04.939Z] [2024-10-16T16:16:04.939Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:16:04.940Z] [2024-10-16T16:16:04.939Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:16:04.940Z] [2024-10-16T16:16:04.940Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:16:04.940Z] [2024-10-16T16:16:04.940Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:16:04.942Z] [2024-10-16T16:16:04.942Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:16:04
+[2024-10-16T16:17:05.311Z] [2024-10-16T16:17:05.311Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:17:05.312Z] [2024-10-16T16:17:05.312Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:17:05.312Z] [2024-10-16T16:17:05.312Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:17:05.313Z] [2024-10-16T16:17:05.313Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:17:05.315Z] [2024-10-16T16:17:05.315Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:17:05
+[2024-10-16T16:18:05.692Z] [2024-10-16T16:18:05.692Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:18:05.693Z] [2024-10-16T16:18:05.692Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:18:05.693Z] [2024-10-16T16:18:05.693Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:18:05.693Z] [2024-10-16T16:18:05.693Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:18:05.695Z] [2024-10-16T16:18:05.695Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:18:05
+[2024-10-16T16:19:06.065Z] [2024-10-16T16:19:06.064Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:19:06.065Z] [2024-10-16T16:19:06.065Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:19:06.065Z] [2024-10-16T16:19:06.065Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:19:06.065Z] [2024-10-16T16:19:06.065Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:19:06.068Z] [2024-10-16T16:19:06.068Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:19:06
+[2024-10-16T16:20:06.442Z] [2024-10-16T16:20:06.442Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:20:06.443Z] [2024-10-16T16:20:06.442Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:20:06.443Z] [2024-10-16T16:20:06.443Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:20:06.443Z] [2024-10-16T16:20:06.443Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:20:06.446Z] [2024-10-16T16:20:06.445Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:20:06
+[2024-10-16T16:21:06.813Z] [2024-10-16T16:21:06.813Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:21:06.814Z] [2024-10-16T16:21:06.814Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:21:06.814Z] [2024-10-16T16:21:06.814Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:21:06.814Z] [2024-10-16T16:21:06.814Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:21:06.817Z] [2024-10-16T16:21:06.816Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:21:06
+[2024-10-16T16:22:07.190Z] [2024-10-16T16:22:07.189Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:22:07.190Z] [2024-10-16T16:22:07.190Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:22:07.190Z] [2024-10-16T16:22:07.190Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:22:07.190Z] [2024-10-16T16:22:07.190Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:22:07.193Z] [2024-10-16T16:22:07.193Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:22:07
+[2024-10-16T16:23:07.566Z] [2024-10-16T16:23:07.566Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:23:07.567Z] [2024-10-16T16:23:07.567Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:23:07.567Z] [2024-10-16T16:23:07.567Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:23:07.567Z] [2024-10-16T16:23:07.567Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:23:07.569Z] [2024-10-16T16:23:07.569Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:23:07
+[2024-10-16T16:24:07.943Z] [2024-10-16T16:24:07.942Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:24:07.943Z] [2024-10-16T16:24:07.943Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:24:07.943Z] [2024-10-16T16:24:07.943Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:24:07.944Z] [2024-10-16T16:24:07.943Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:24:07.946Z] [2024-10-16T16:24:07.946Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:24:07
+[2024-10-16T16:25:08.322Z] [2024-10-16T16:25:08.321Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:25:08.322Z] [2024-10-16T16:25:08.322Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:25:08.322Z] [2024-10-16T16:25:08.322Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:25:08.322Z] [2024-10-16T16:25:08.322Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:25:08.324Z] [2024-10-16T16:25:08.324Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:25:08
+[2024-10-16T16:26:08.694Z] [2024-10-16T16:26:08.694Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:26:08.694Z] [2024-10-16T16:26:08.694Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:26:08.695Z] [2024-10-16T16:26:08.695Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:26:08.695Z] [2024-10-16T16:26:08.695Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:26:08.697Z] [2024-10-16T16:26:08.697Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:26:08
+[2024-10-16T16:27:09.067Z] [2024-10-16T16:27:09.067Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:27:09.068Z] [2024-10-16T16:27:09.068Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:27:09.068Z] [2024-10-16T16:27:09.068Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:27:09.068Z] [2024-10-16T16:27:09.068Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:27:09.070Z] [2024-10-16T16:27:09.070Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:27:09
+[2024-10-16T16:28:09.446Z] [2024-10-16T16:28:09.446Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:28:09.446Z] [2024-10-16T16:28:09.446Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:28:09.447Z] [2024-10-16T16:28:09.447Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:28:09.447Z] [2024-10-16T16:28:09.447Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:28:09.449Z] [2024-10-16T16:28:09.449Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:28:09
+[2024-10-16T16:29:09.821Z] [2024-10-16T16:29:09.820Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:29:09.821Z] [2024-10-16T16:29:09.821Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:29:09.821Z] [2024-10-16T16:29:09.821Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:29:09.822Z] [2024-10-16T16:29:09.822Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:29:09.824Z] [2024-10-16T16:29:09.824Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:29:09
+[2024-10-16T16:30:10.201Z] [2024-10-16T16:30:10.201Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:30:10.201Z] [2024-10-16T16:30:10.201Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:30:10.202Z] [2024-10-16T16:30:10.202Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:30:10.202Z] [2024-10-16T16:30:10.202Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:30:10.204Z] [2024-10-16T16:30:10.204Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:30:10
+[2024-10-16T16:31:10.573Z] [2024-10-16T16:31:10.572Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:31:10.573Z] [2024-10-16T16:31:10.573Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:31:10.573Z] [2024-10-16T16:31:10.573Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:31:10.574Z] [2024-10-16T16:31:10.574Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:31:10.576Z] [2024-10-16T16:31:10.576Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:31:10
+[2024-10-16T16:32:10.946Z] [2024-10-16T16:32:10.946Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:32:10.946Z] [2024-10-16T16:32:10.946Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:32:10.947Z] [2024-10-16T16:32:10.947Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:32:10.947Z] [2024-10-16T16:32:10.947Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:32:10.949Z] [2024-10-16T16:32:10.949Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:32:10
+[2024-10-16T16:33:11.325Z] [2024-10-16T16:33:11.325Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:33:11.326Z] [2024-10-16T16:33:11.326Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:33:11.326Z] [2024-10-16T16:33:11.326Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:33:11.326Z] [2024-10-16T16:33:11.326Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:33:11.329Z] [2024-10-16T16:33:11.329Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:33:11
+[2024-10-16T16:34:11.699Z] [2024-10-16T16:34:11.698Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:34:11.701Z] [2024-10-16T16:34:11.701Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:34:11.701Z] [2024-10-16T16:34:11.701Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:34:11.702Z] [2024-10-16T16:34:11.702Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:34:11.703Z] [2024-10-16T16:34:11.703Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:34:11
+[2024-10-16T16:35:12.074Z] [2024-10-16T16:35:12.071Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:35:12.074Z] [2024-10-16T16:35:12.074Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:35:12.074Z] [2024-10-16T16:35:12.074Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:35:12.075Z] [2024-10-16T16:35:12.075Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:35:12.077Z] [2024-10-16T16:35:12.077Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:35:12
+[2024-10-16T16:36:12.450Z] [2024-10-16T16:36:12.450Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:36:12.453Z] [2024-10-16T16:36:12.453Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:36:12.453Z] [2024-10-16T16:36:12.453Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:36:12.453Z] [2024-10-16T16:36:12.453Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:36:12.456Z] [2024-10-16T16:36:12.456Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:36:12
+[2024-10-16T16:37:12.824Z] [2024-10-16T16:37:12.824Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:37:12.825Z] [2024-10-16T16:37:12.825Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:37:12.825Z] [2024-10-16T16:37:12.825Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:37:12.825Z] [2024-10-16T16:37:12.825Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:37:12.828Z] [2024-10-16T16:37:12.828Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:37:12
+[2024-10-16T16:38:13.201Z] [2024-10-16T16:38:13.201Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:38:13.202Z] [2024-10-16T16:38:13.202Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:38:13.202Z] [2024-10-16T16:38:13.202Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:38:13.202Z] [2024-10-16T16:38:13.202Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:38:13.204Z] [2024-10-16T16:38:13.204Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:38:13
+[2024-10-16T16:39:13.575Z] [2024-10-16T16:39:13.575Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:39:13.576Z] [2024-10-16T16:39:13.576Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:39:13.576Z] [2024-10-16T16:39:13.576Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:39:13.576Z] [2024-10-16T16:39:13.576Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:39:13.580Z] [2024-10-16T16:39:13.580Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:39:13
+[2024-10-16T16:39:26.015Z] [2024-10-16T16:39:26.015Z] [INFO] Gelen topic: machines/card
+[2024-10-16T16:39:26.016Z] [2024-10-16T16:39:26.016Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e"}
+[2024-10-16T16:39:26.016Z] [2024-10-16T16:39:26.016Z] [INFO] Normalized topic: machines/card
+[2024-10-16T16:39:26.016Z] [2024-10-16T16:39:26.016Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T16:39:26.018Z] [2024-10-16T16:39:26.018Z] [ERROR] ERROR: Mesaj işlenirken hata oluştu: handleCardCheck is not a function
+[2024-10-16T16:39:26.872Z] [2024-10-16T16:39:26.872Z] [INFO] Gelen topic: machines/card
+[2024-10-16T16:39:26.873Z] [2024-10-16T16:39:26.873Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e"}
+[2024-10-16T16:39:26.873Z] [2024-10-16T16:39:26.873Z] [INFO] Normalized topic: machines/card
+[2024-10-16T16:39:26.873Z] [2024-10-16T16:39:26.873Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T16:39:26.874Z] [2024-10-16T16:39:26.874Z] [ERROR] ERROR: Mesaj işlenirken hata oluştu: handleCardCheck is not a function
+[2024-10-16T16:39:27.681Z] [2024-10-16T16:39:27.681Z] [INFO] Gelen topic: machines/card
+[2024-10-16T16:39:27.682Z] [2024-10-16T16:39:27.682Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e"}
+[2024-10-16T16:39:27.682Z] [2024-10-16T16:39:27.682Z] [INFO] Normalized topic: machines/card
+[2024-10-16T16:39:27.682Z] [2024-10-16T16:39:27.682Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T16:39:27.682Z] [2024-10-16T16:39:27.682Z] [ERROR] ERROR: Mesaj işlenirken hata oluştu: handleCardCheck is not a function
+[2024-10-16T16:40:13.683Z] [2024-10-16T16:40:13.683Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:40:13.683Z] [2024-10-16T16:40:13.683Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:40:13.683Z] [2024-10-16T16:40:13.683Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:40:13.684Z] [2024-10-16T16:40:13.684Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:40:13.686Z] [2024-10-16T16:40:13.685Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:40:13
+[2024-10-16T16:41:14.053Z] [2024-10-16T16:41:14.053Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:41:14.053Z] [2024-10-16T16:41:14.053Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:41:14.053Z] [2024-10-16T16:41:14.053Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:41:14.054Z] [2024-10-16T16:41:14.054Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:41:14.057Z] [2024-10-16T16:41:14.057Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:41:14
+[2024-10-16T16:42:14.429Z] [2024-10-16T16:42:14.429Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:42:14.430Z] [2024-10-16T16:42:14.430Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:42:14.430Z] [2024-10-16T16:42:14.430Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:42:14.430Z] [2024-10-16T16:42:14.430Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:42:14.434Z] [2024-10-16T16:42:14.434Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:42:14
+[2024-10-16T16:43:14.805Z] [2024-10-16T16:43:14.805Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:43:14.805Z] [2024-10-16T16:43:14.805Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:43:14.806Z] [2024-10-16T16:43:14.805Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:43:14.806Z] [2024-10-16T16:43:14.806Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:43:14.808Z] [2024-10-16T16:43:14.807Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:43:14
+[2024-10-16T16:43:29.436Z] [2024-10-16T16:43:29.435Z] [INFO] MQTT işlemleri başlatılıyor...
+[2024-10-16T16:43:29.498Z] [2024-10-16T16:43:29.498Z] [INFO] MQTT Broker bağlantısı başarılı
+[2024-10-16T16:43:29.531Z] [2024-10-16T16:43:29.531Z] [INFO] Başarıyla abone olundu
+[2024-10-16T16:44:15.187Z] [2024-10-16T16:44:15.186Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:44:15.187Z] [2024-10-16T16:44:15.187Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729090535142"}
+[2024-10-16T16:44:15.187Z] [2024-10-16T16:44:15.187Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:44:15.190Z] [2024-10-16T16:44:15.190Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:44:15.205Z] [2024-10-16T16:44:15.205Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:44:15
+[2024-10-16T16:44:35.139Z] [2024-10-16T16:44:35.138Z] [INFO] MQTT işlemleri başlatılıyor...
+[2024-10-16T16:44:35.196Z] [2024-10-16T16:44:35.196Z] [INFO] MQTT Broker bağlantısı başarılı
+[2024-10-16T16:44:35.229Z] [2024-10-16T16:44:35.228Z] [INFO] Başarıyla abone olundu
+[2024-10-16T16:44:40.942Z] [2024-10-16T16:44:40.940Z] [INFO] MQTT işlemleri başlatılıyor...
+[2024-10-16T16:44:41.005Z] [2024-10-16T16:44:41.005Z] [INFO] MQTT Broker bağlantısı başarılı
+[2024-10-16T16:44:41.038Z] [2024-10-16T16:44:41.037Z] [INFO] Başarıyla abone olundu
+[2024-10-16T16:44:50.988Z] [2024-10-16T16:44:50.988Z] [INFO] Gelen topic: machines/register
+[2024-10-16T16:44:50.989Z] [2024-10-16T16:44:50.989Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816"}
+[2024-10-16T16:44:50.989Z] [2024-10-16T16:44:50.989Z] [INFO] Normalized topic: machines/register
+[2024-10-16T16:44:50.992Z] [2024-10-16T16:44:50.992Z] [INFO] Kayıt mesajı işleniyor
+[2024-10-16T16:44:51.000Z] [2024-10-16T16:44:51.000Z] [INFO] Makine kayıtlı: 3943586267902816
+[2024-10-16T16:44:51.011Z] [2024-10-16T16:44:51.011Z] [INFO] Makine kayıtlı: 3943586267902816, Token oluşturuldu
+[2024-10-16T16:45:06.776Z] [2024-10-16T16:45:06.776Z] [INFO] Gelen topic: machines/card
+[2024-10-16T16:45:06.776Z] [2024-10-16T16:45:06.776Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e"}
+[2024-10-16T16:45:06.777Z] [2024-10-16T16:45:06.777Z] [INFO] Normalized topic: machines/card
+[2024-10-16T16:45:06.777Z] [2024-10-16T16:45:06.777Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T16:45:06.777Z] [2024-10-16T16:45:06.777Z] [ERROR] ERROR: Mesaj işlenirken hata oluştu: handleCardCheck is not a function
+[2024-10-16T16:47:08.662Z] [2024-10-16T16:47:08.660Z] [INFO] MQTT işlemleri başlatılıyor...
+[2024-10-16T16:47:08.727Z] [2024-10-16T16:47:08.727Z] [INFO] MQTT Broker bağlantısı başarılı
+[2024-10-16T16:47:08.765Z] [2024-10-16T16:47:08.765Z] [INFO] Başarıyla abone olundu
+[2024-10-16T16:47:10.225Z] [2024-10-16T16:47:10.225Z] [INFO] Gelen topic: machines/card
+[2024-10-16T16:47:10.225Z] [2024-10-16T16:47:10.225Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e"}
+[2024-10-16T16:47:10.226Z] [2024-10-16T16:47:10.226Z] [INFO] Normalized topic: machines/card
+[2024-10-16T16:47:10.230Z] [2024-10-16T16:47:10.230Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T16:47:10.238Z] [2024-10-16T16:47:10.238Z] [INFO] RFID (1:d9:e5:2e) Sistemde Kayıtlı: Murat DALGIC
+[2024-10-16T16:47:10.307Z] [2024-10-16T16:47:10.307Z] [INFO] Gelen topic: machines/delivery/request
+[2024-10-16T16:47:10.307Z] [2024-10-16T16:47:10.307Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e", "compartmentNumber": -1}
+[2024-10-16T16:47:10.308Z] [2024-10-16T16:47:10.308Z] [INFO] Normalized topic: machines/delivery/request
+[2024-10-16T16:47:10.308Z] [2024-10-16T16:47:10.308Z] [INFO] Teslimat mesajı işleniyor
+[2024-10-16T16:47:10.316Z] [2024-10-16T16:47:10.316Z] [ERROR] ERROR: Geçersiz bölme numarası: -1 veya bölme zaten boş.
+[2024-10-16T16:47:23.146Z] [2024-10-16T16:47:23.146Z] [INFO] Gelen topic: machines/card
+[2024-10-16T16:47:23.147Z] [2024-10-16T16:47:23.147Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "5:8c:4:3b:d4:21:0"}
+[2024-10-16T16:47:23.147Z] [2024-10-16T16:47:23.147Z] [INFO] Normalized topic: machines/card
+[2024-10-16T16:47:23.147Z] [2024-10-16T16:47:23.147Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T16:47:23.150Z] [2024-10-16T16:47:23.150Z] [INFO] RFID (5:8c:4:3b:d4:21:0) Sistemde Kayıtlı: Serpil DURMUS
+[2024-10-16T16:47:23.239Z] [2024-10-16T16:47:23.239Z] [INFO] Gelen topic: machines/delivery/request
+[2024-10-16T16:47:23.240Z] [2024-10-16T16:47:23.240Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "5:8c:4:3b:d4:21:0", "compartmentNumber": -1}
+[2024-10-16T16:47:23.240Z] [2024-10-16T16:47:23.240Z] [INFO] Normalized topic: machines/delivery/request
+[2024-10-16T16:47:23.240Z] [2024-10-16T16:47:23.240Z] [INFO] Teslimat mesajı işleniyor
+[2024-10-16T16:47:23.244Z] [2024-10-16T16:47:23.244Z] [ERROR] ERROR: Geçersiz bölme numarası: -1 veya bölme zaten boş.
+[2024-10-16T16:47:50.864Z] [2024-10-16T16:47:50.864Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:47:50.864Z] [2024-10-16T16:47:50.864Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729097091000"}
+[2024-10-16T16:47:50.865Z] [2024-10-16T16:47:50.865Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:47:50.865Z] [2024-10-16T16:47:50.865Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:47:50.875Z] [2024-10-16T16:47:50.875Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:47:50
+[2024-10-16T16:48:09.391Z] [2024-10-16T16:48:09.389Z] [INFO] MQTT işlemleri başlatılıyor...
+[2024-10-16T16:48:09.452Z] [2024-10-16T16:48:09.452Z] [INFO] MQTT Broker bağlantısı başarılı
+[2024-10-16T16:48:09.482Z] [2024-10-16T16:48:09.482Z] [INFO] Başarıyla abone olundu
+[2024-10-16T16:48:13.921Z] [2024-10-16T16:48:13.921Z] [INFO] Gelen topic: machines/card
+[2024-10-16T16:48:13.922Z] [2024-10-16T16:48:13.922Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e"}
+[2024-10-16T16:48:13.922Z] [2024-10-16T16:48:13.922Z] [INFO] Normalized topic: machines/card
+[2024-10-16T16:48:13.925Z] [2024-10-16T16:48:13.925Z] [INFO] Kart mesajı işleniyor
+[2024-10-16T16:48:13.933Z] [2024-10-16T16:48:13.933Z] [INFO] RFID (1:d9:e5:2e) Sistemde Kayıtlı: Murat DALGIC
+[2024-10-16T16:48:14.001Z] [2024-10-16T16:48:14.001Z] [INFO] Gelen topic: machines/delivery/request
+[2024-10-16T16:48:14.001Z] [2024-10-16T16:48:14.001Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "cardID": "1:d9:e5:2e", "compartmentNumber": -1}
+[2024-10-16T16:48:14.002Z] [2024-10-16T16:48:14.001Z] [INFO] Normalized topic: machines/delivery/request
+[2024-10-16T16:48:14.002Z] [2024-10-16T16:48:14.002Z] [INFO] Teslimat mesajı işleniyor
+[2024-10-16T16:48:14.011Z] [2024-10-16T16:48:14.011Z] [ERROR] ERROR: Geçersiz bölme numarası: -1 veya bölme zaten boş.
+[2024-10-16T16:48:50.985Z] [2024-10-16T16:48:50.985Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:48:50.985Z] [2024-10-16T16:48:50.985Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729097091000"}
+[2024-10-16T16:48:50.985Z] [2024-10-16T16:48:50.985Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:48:50.986Z] [2024-10-16T16:48:50.986Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:48:50.995Z] [2024-10-16T16:48:50.995Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:48:50
+[2024-10-16T16:49:51.350Z] [2024-10-16T16:49:51.350Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:49:51.351Z] [2024-10-16T16:49:51.351Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729097091000"}
+[2024-10-16T16:49:51.351Z] [2024-10-16T16:49:51.351Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:49:51.351Z] [2024-10-16T16:49:51.351Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:49:51.355Z] [2024-10-16T16:49:51.355Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:49:51
+[2024-10-16T16:50:51.725Z] [2024-10-16T16:50:51.725Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:50:51.726Z] [2024-10-16T16:50:51.726Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729097091000"}
+[2024-10-16T16:50:51.726Z] [2024-10-16T16:50:51.726Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:50:51.726Z] [2024-10-16T16:50:51.726Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:50:51.730Z] [2024-10-16T16:50:51.730Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:50:51
+[2024-10-16T16:51:52.101Z] [2024-10-16T16:51:52.101Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:51:52.102Z] [2024-10-16T16:51:52.102Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729097091000"}
+[2024-10-16T16:51:52.102Z] [2024-10-16T16:51:52.102Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:51:52.102Z] [2024-10-16T16:51:52.102Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:51:52.105Z] [2024-10-16T16:51:52.105Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:51:52
+[2024-10-16T16:52:52.483Z] [2024-10-16T16:52:52.482Z] [INFO] Gelen topic: machines/heartbeat
+[2024-10-16T16:52:52.483Z] [2024-10-16T16:52:52.483Z] [INFO] İşlenen mesaj: {"serialNumber": "3943586267902816", "status": "online", "token": "token_3943586267902816_1729097091000"}
+[2024-10-16T16:52:52.484Z] [2024-10-16T16:52:52.484Z] [INFO] Normalized topic: machines/heartbeat
+[2024-10-16T16:52:52.484Z] [2024-10-16T16:52:52.484Z] [INFO] Heartbeat mesajı işleniyor
+[2024-10-16T16:52:52.487Z] [2024-10-16T16:52:52.486Z] [INFO] Makine durumu güncellendi: Seri Numarası - 3943586267902816, Durum - online, Son Heartbeat: 16:10:2024 19:52:52

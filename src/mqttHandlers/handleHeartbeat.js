@@ -57,6 +57,4 @@ async function handleHeartbeatMessage(parsedMessage) {
     }
 }
 
-module.exports = {
-    handleHeartbeatMessage,
-};
+module.exports = handleHeartbeatMessage;

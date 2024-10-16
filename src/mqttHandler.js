@@ -44,9 +44,9 @@ function start() {
                 logMessage(`Normalized topic: ${normalizedTopic}`);
 
                 // İmportlar burada yapılıyor, döngüsel bağımlılık oluşmuyor
-                const handleCardCheck = require('./mqttHandlers/handleCard').handleCardMessage;
+                const handleCardCheck = require('./mqttHandlers/handleCard');
                 const handleRegister = require('./mqttHandlers/handleRegister');
-                const handleHeartbeat = require('./mqttHandlers/handleHeartbeat').handleHeartbeatMessage;
+                const handleHeartbeat = require('./mqttHandlers/handleHeartbeat');
                 const handleProductDeliveryRequest = require('./mqttHandlers/productDeliveryHandler');
 
                 switch (normalizedTopic) {
