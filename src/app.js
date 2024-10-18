@@ -8,7 +8,6 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
 const path = require('path'); // path modülü eklendi
 
-
 // Route dosyaları
 const reelRoutes = require('./routes/reelRoutes');
 const machineRoutes = require('./routes/machineRoutes');
@@ -18,9 +17,13 @@ const companyRoutes = require('./routes/companyRoutes');
 const deliveryLogRoutes = require('./routes/deliveryLogRoutes');
 const salesLogRoutes = require('./routes/salesLogRoutes');
 const notificationRoutes = require('./routes/notificationRoutes');
+const powerRoutes = require('./routes/powerRoutes');
 
 // MQTT Handler'lar
 const mqttHandler = require('./mqttHandler'); // MQTT işlemleri başlatılıyor
+
+// Heartbeat monitor (Offline makineleri kontrol etmek için)
+const { monitorMachinesForOfflineStatus } = require('./utils/heartbeatMonitor'); // heartbeat monitor eklendi
 
 // Express uygulaması oluşturma
 const app = express();
@@ -30,23 +33,23 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan('dev'));
 
-// Swagger ayarları
+// Swagger tanımları
 const swaggerOptions = {
     swaggerDefinition: {
         openapi: '3.0.0',
         info: {
-            title: 'Atlas Otomat Yönetimi',
+            title: 'Atlas Otomat API',
             version: '1.0.0',
-            description: 'Atlas Otomat Sistemi API Dökümantasyonu',
+            description: 'Atlas Otomat Sistemi için API Dökümantasyonu'
         },
         servers: [
             {
                 url: 'http://localhost:3000',
-                description: 'Local server',
-            },
-        ],
+                description: 'Local server'
+            }
+        ]
     },
-    apis: [path.join(__dirname, 'routes/*.js')], // Route dosyaları için dökümantasyon
+    apis: [path.join(__dirname, 'routes/*.js')], // Route dosyalarını burada belirt
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
@@ -68,6 +71,7 @@ app.use('/api/reels', reelRoutes);
 app.use('/api/deliveryLogs', deliveryLogRoutes);
 app.use('/api/salesLogs', salesLogRoutes);
 app.use('/api/notifications', notificationRoutes);
+app.use('/api', powerRoutes);
 
 // MQTT Handler başlatma
 mqttHandler.start();
@@ -82,6 +86,11 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 3030;
 app.listen(PORT, () => {
     console.log(`Sunucu ${PORT} portunda çalışıyor`);
+
+    // Makine offline durumunu kontrol eden monitor'ü başlatıyoruz
+    setInterval(() => {
+        monitorMachinesForOfflineStatus(); // Her 5 dakikada bir offline makineleri kontrol et
+    }, 1 * 60 * 1000); // 1 dakika aralıklarla çalıştır (1 dakikayı milisaniyeye çeviriyoruz)
 });
 
 module.exports = app;

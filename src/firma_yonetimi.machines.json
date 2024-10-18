@@ -2,13 +2,13 @@
   "_id": {
     "$oid": "670cdb6312f975838f039030"
   },
-  "serialNumber": "6660469940078142",
+  "serialNumber": "3943586267902816",
   "model": "Safety Product Machine",
   "isActive": true,
-  "token": "",
-  "status": "online",
+  "token": "token_3943586267902816_1729239937023",
+  "status": "offline",
   "lastHeartbeat": {
-    "$date": "2024-10-15T09:51:18.862Z"
+    "$date": "2024-10-18T08:27:36.901Z"
   },
   "reels": [
     {
@@ -40,29 +40,25 @@
     },
     {
       "$oid": "670eff3b0a410660a926f88d"
+    },
+    {
+      "$oid": "670ff9de6ddb59f1945e630a"
+    },
+    {
+      "$oid": "670ff9fc6ddb59f1945e6317"
+    },
+    {
+      "$oid": "6710070022e267a9e04f8297"
+    },
+    {
+      "$oid": "6710071022e267a9e04f82a0"
     }
   ],
-  "__v": 10,
+  "__v": 14,
   "createdAt": {
     "$date": "2024-10-14T19:16:44.162Z"
   },
   "updatedAt": {
-    "$date": "2024-10-15T23:48:11.824Z"
+    "$date": "2024-10-18T08:29:05.850Z"
   }
-},
-{
-  "_id": {
-    "$oid": "670f85a67eb50b44dc755121"
-  },
-  "serialNumber": "3943586267902816",
-  "isActive": false,
-  "status": "unregistered",
-  "reels": [],
-  "createdAt": {
-    "$date": "2024-10-16T09:21:42.449Z"
-  },
-  "updatedAt": {
-    "$date": "2024-10-16T09:21:42.469Z"
-  },
-  "__v": 0
 }]

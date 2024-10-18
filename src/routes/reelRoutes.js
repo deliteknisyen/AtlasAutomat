@@ -65,6 +65,7 @@ router.patch('/:id/deliver', async (req, res) => {
             { $inc: { productCount: -1 } },
             { new: true }
         );
+
         if (!updatedReel) {
             return res.status(400).json({ message: 'Makara boş, ürün kalmadı' });
         }
