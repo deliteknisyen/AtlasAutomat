@@ -4,7 +4,7 @@
 const mongoose = require('mongoose');
 
 const notificationSchema = new mongoose.Schema({
-    userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true }, // Bildirimi alan kullanıcı
+    personnelId: { type: mongoose.Schema.Types.ObjectId, ref: 'MasterPersonnel', required: true }, // Bildirimi alan personel
     message: { type: String, required: true }, // Bildirim mesajı
     type: {
         type: String,
